@@ -1,0 +1,9 @@
+
+.nav li ul{
+  position: absolute;
+  top: 74px; /*Adjust this to around 33px */
+  padding: 20px;
+}
+.dropdown-menu{
+    background-color: #18BC9C;
+}
