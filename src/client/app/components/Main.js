@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Navbar from './Navbar.js';
-import Banner from './Banner.js';
+import FrontPage from './FrontPage.js';
+import Page from './Page.js';
+import Pricing from './Pricing.js'
 import "../assets/css/index.css";
 import { Router, Route ,Switch} from 'react-router'
 import { HashRouter,IndexRoute} from 'react-router-dom'
@@ -14,8 +15,9 @@ class Main extends React.Component {
     render() {
         return (
             <div>
-                <Navbar />
-                <Banner />
+                <Page>
+                    <FrontPage/>
+                </Page >
             </div>
         );
   }

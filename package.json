@@ -19,7 +19,6 @@
     "react-router": "^4.1.1",
     "react-router-dom": "^4.1.1",
     "react-webcam": "0.0.14",
-    "semantic-ui": "^2.2.10"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",

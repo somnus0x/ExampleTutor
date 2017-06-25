@@ -25,12 +25,19 @@ class Navbar extends React.Component {
                                     <a className="dropdown-toggle" data-toggle="dropdown" href="#">
                                       หลักสูตร
                                     </a>
-                                    <ul className="dropdown-menu" role="menu">
-                                      <li><a href="#">Action</a></li>
-                                      <li><a href="#">Another action</a></li>
-                                      <li><a href="#">Something else here</a></li>
+                                    <ul className="dropdown-menu multi-level" role="menu">
+                                      <li><a href="#">อนุบาล</a></li>
+                                      <li><a href="#">ประถม</a></li>
+                                      <li><a href="#">มหาวิทยาลัย</a></li>
                                       <li className="divider"></li>
-                                      <li><a href="#">Separated link</a></li>
+                                      <li className="dropdown-submenu">
+                                        <a tabindex="-1" href="#">ติวสอบ</a>
+                                        <ul className="dropdown-menu">
+                                          <li><a tabindex="-1" href="#">กลางภาค/ปลายภาค</a></li>
+                                          <li><a href="#">GAT-PAT/7 วิชาสามัญ/O-NET</a></li>
+                                          <li><a href="#">TU-GET /CU-TEP/ IGCSE /SAT /CU –ATT/ CU-TEP</a></li>
+                                        </ul>
+                                      </li>
                                     </ul>
                                 </li>
                                 <li className="page-scroll">
