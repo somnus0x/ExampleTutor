@@ -18,7 +18,7 @@
     "react-on-screen": "^1.1.4",
     "react-router": "^4.1.1",
     "react-router-dom": "^4.1.1",
-    "react-webcam": "0.0.14",
+    "react-webcam": "0.0.14"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",

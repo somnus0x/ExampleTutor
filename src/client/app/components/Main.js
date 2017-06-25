@@ -16,7 +16,8 @@ class Main extends React.Component {
         return (
             <div>
                 <Page>
-                    <FrontPage/>
+                    <Route exact path = '/' component = {FrontPage} />
+                    <Route path = '/pricing' component = {Pricing}/>
                 </Page >
             </div>
         );
