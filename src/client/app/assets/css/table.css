@@ -1,7 +1,32 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100);
-
+.col-md-6{
+    padding-top: 20px;
+}
 .jumbotron {
     margin-bottom: 0px;
+}
+.qa{
+    padding-bottom: 40px;
+}
+.container h2 {
+    padding-top : 30px;
+    text-align: center;
+}
+.qa h4{
+    font-size: 20px;
+    color: #5cb85c;
+}
+.qa h5{
+    font-size: 20px;
+}
+.jumbotron h2 {
+    padding-top :60px;
+    text-align: center;
+}
+hr.heart{
+	border-top: 4px double #8c8b8b;
+	text-align: center;
+    width: 400px;
 }
 div.table-title {
    display: block;
@@ -12,7 +37,6 @@ div.table-title {
 }
 
 .table-title h3 {
-    padding-top:  50px;
    color: #4E5066;
    font-size: 30px;
    font-weight: 400;
@@ -39,12 +63,12 @@ div.table-title {
 }
 
 th {
-  color:#D5DDE5;;
+  color:#D5DDE5;
   background:#1b1e24;
   border-bottom:4px solid #9ea7af;
   border-right: 1px solid #343a45;
   font-size:16px;
-  font-weight: 100;
+  font-weight: bold;
   padding:10px;
   text-align:left;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
@@ -105,7 +129,7 @@ td {
   padding:5px;
   text-align:left;
   vertical-align:middle;
-  font-weight:300;
+  font-weight:bold;
   font-size:12px;
   text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
   border-right: 1px solid #C1C3D1;

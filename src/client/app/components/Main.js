@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import FrontPage from './FrontPage.js';
 import Page from './Page.js';
-import Pricing from './Pricing.js'
+import Courses from './Courses.js'
+import Register from './Register.js'
 import "../assets/css/index.css";
 import { Router, Route ,Switch} from 'react-router'
 import { HashRouter,IndexRoute} from 'react-router-dom'
@@ -17,7 +18,8 @@ class Main extends React.Component {
             <div>
                 <Page>
                     <Route exact path = '/' component = {FrontPage} />
-                    <Route path = '/pricing' component = {Pricing}/>
+                    <Route path = '/course' component = {Courses}/>
+                    <Route path = '/register' component = {Register}/>
                 </Page >
             </div>
         );

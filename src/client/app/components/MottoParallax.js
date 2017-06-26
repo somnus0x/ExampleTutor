@@ -5,7 +5,7 @@ import "../assets/css/parallax.css";
 
 import {Link} from 'react-router-dom'
 
-class QuoteSection extends React.Component {
+class MottoParallax extends React.Component {
   render() {
     return (
         <div>
@@ -19,4 +19,4 @@ class QuoteSection extends React.Component {
   }
 }
 
-export default QuoteSection;
+export default MottoParallax;

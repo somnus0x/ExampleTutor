@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import "../assets/css/index.css";
 
+import {Link} from 'react-router-dom'
 
 class Footer extends React.Component {
   render() {
@@ -10,16 +12,13 @@ class Footer extends React.Component {
                 <div className="container">
                     <div className="row">
                         <div className="footer-col col-md-4">
-                            <h3>Location</h3>
-                            <p>3481 Melrose Place
-                                <br/>Beverly Hills, CA 90210</p>
+                            <h3>Lorem Ipsum</h3>
+
                         </div>
                         <div className="footer-col col-md-4">
-                            
                         </div>
                         <div className="footer-col col-md-4">
-                            <h3>About Freelancer</h3>
-                            <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+                            <h3>About Us</h3>
                         </div>
                     </div>
                 </div>
@@ -28,7 +27,7 @@ class Footer extends React.Component {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
-                            Copyright &copy; Your Website 2016
+                            Copyright &copy;
                         </div>
                     </div>
                 </div>

@@ -13,7 +13,7 @@ class Navbar extends React.Component {
                             <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                                 <span className="sr-only">Toggle navigation</span> Menu <i className="fa fa-bars"></i>
                             </button>
-                            <a className="navbar-brand" href="#page-top">CU TUTOR</a>
+                            <a className="navbar-brand" href="/">CU TUTOR</a>
                         </div>
 
                         <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -26,7 +26,7 @@ class Navbar extends React.Component {
                                       หลักสูตร
                                     </a>
                                     <ul className="dropdown-menu multi-level" role="menu">
-                                      <li><a href="#">อนุบาล</a></li>
+                                      <li><a href="/Course">อนุบาล</a></li>
                                       <li><a href="#">ประถม</a></li>
                                       <li><a href="#">มหาวิทยาลัย</a></li>
                                       <li className="divider"></li>
@@ -50,7 +50,7 @@ class Navbar extends React.Component {
                                     <a href="#contact">ทีมติวเตอร์</a>
                                 </li>
                                 <li className="page-scroll">
-                                    <a href="#contact">สมัครเรียน</a>
+                                    <a href="/Register">สมัครเรียน</a>
                                 </li>
                             </ul>
                         </div>
