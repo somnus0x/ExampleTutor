@@ -13,44 +13,44 @@ class Navbar extends React.Component {
                             <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                                 <span className="sr-only">Toggle navigation</span> Menu <i className="fa fa-bars"></i>
                             </button>
-                            <a className="navbar-brand" href="/">CU TUTOR</a>
+                            <a className="navbar-brand" ><Link to="/" >CU TUTOR</Link></a>
                         </div>
 
                         <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <ul className="nav navbar-nav navbar-left">
                                 <li className="hidden">
-                                    <a href="#page-top"></a>
+                                    <a ></a>
                                 </li>
                                 <li className="dropdown">
-                                    <a className="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    <a className="dropdown-toggle" data-toggle="dropdown" >
                                       หลักสูตร
                                     </a>
                                     <ul className="dropdown-menu multi-level" role="menu">
-                                      <li><a href="/Course">อนุบาล</a></li>
-                                      <li><a href="#">ประถม</a></li>
-                                      <li><a href="#">มหาวิทยาลัย</a></li>
+                                      <li><a ><Link to="/course"  className="item">อนุบาล</Link></a></li>
+                                      <li><a >ประถม</a></li>
+                                      <li><a >มหาวิทยาลัย</a></li>
                                       <li className="divider"></li>
                                       <li className="dropdown-submenu">
-                                        <a tabindex="-1" href="#">ติวสอบ</a>
+                                        <a tabIndex="-1" href="#">ติวสอบ</a>
                                         <ul className="dropdown-menu">
-                                          <li><a tabindex="-1" href="#">กลางภาค/ปลายภาค</a></li>
-                                          <li><a href="#">GAT-PAT/7 วิชาสามัญ/O-NET</a></li>
-                                          <li><a href="#">TU-GET /CU-TEP/ IGCSE /SAT /CU –ATT/ CU-TEP</a></li>
+                                          <li><a tabIndex="-1">กลางภาค/ปลายภาค</a></li>
+                                          <li><a >GAT-PAT/7 วิชาสามัญ/O-NET</a></li>
+                                          <li><a >TU-GET /CU-TEP/ IGCSE /SAT /CU –ATT/ CU-TEP</a></li>
                                         </ul>
                                       </li>
                                     </ul>
                                 </li>
                                 <li className="page-scroll">
-                                    <a href="#about">อัตราค่าเรียน</a>
+                                    <a >อัตราค่าเรียน</a>
                                 </li>
                                 <li className="page-scroll">
-                                    <a href="#contact">ความสำเร็จ</a>
+                                    <a >ความสำเร็จ</a>
                                 </li>
                                 <li className="page-scroll">
-                                    <a href="#contact">ทีมติวเตอร์</a>
+                                    <a >ทีมติวเตอร์</a>
                                 </li>
                                 <li className="page-scroll">
-                                    <a href="/Register">สมัครเรียน</a>
+                                    <a ><Link to="/register">สมัครเรียน</Link></a>
                                 </li>
                             </ul>
                         </div>

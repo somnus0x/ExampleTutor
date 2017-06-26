@@ -12,9 +12,7 @@ var config = {
     filename: 'bundle.js',
   },
   devServer: {
-    historyApiFallback: {
-      index: 'index.html'
-    }
+    
   },
   module: {
     loaders: [
