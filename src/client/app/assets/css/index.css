@@ -102,8 +102,17 @@ header .intro-text .skills {
     font-size: 1.75em;
   }
 }
+.navbar {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.nav-pills .nav-link {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 0;
+  }
 .navbar-custom {
-  background: #2C3E50;
+  background: #ffffff;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -121,8 +130,10 @@ header .intro-text .skills {
 .navbar-custom .navbar-nav {
   letter-spacing: 1px;
 }
+
 .navbar-custom .navbar-nav li a {
   color: white;
+  background: #18BC9C;
 }
 .navbar-custom .navbar-nav li a:hover {
   color: #18BC9C;

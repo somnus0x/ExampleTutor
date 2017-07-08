@@ -2,62 +2,64 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import "../assets/css/navbar.css";
 import {Link} from 'react-router-dom'
+import MediaQuery from 'react-responsive'
 
 class Navbar extends React.Component {
   render() {
     return (
-        <div>
-            <nav id="mainNav" className="navbar navbar-default navbar-fixed-top navbar-custom">
-                    <div className="container">
-                        <div className="navbar-header page-scroll">
-                            <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                                <span className="sr-only">Toggle navigation</span> Menu <i className="fa fa-bars"></i>
-                            </button>
-                            <a className="navbar-brand" ><Link to="/" >CU TUTOR</Link></a>
-                        </div>
+        <div className = 'navbar-wrapper'>
+            <div className = 'row contact-row'>
+                <div className = 'col-md-2 col-md-offset-7'>
+                    <img src = {"src/client/app/assets/logo/phone.png"}  />
+                    Contact : 096 883-4441
+                </div>
+                <div className = 'col-md-2 line'>
+                    <img src = {"src/client/app/assets/logo/line.png"}  />
+                    Line : <a href = 'http://line.me/ti/p/@mwp5636g'>CULearningHome</a>
+                </div>
+                <div className = 'col-md-1  social-bar'>
+                    <img src = {"src/client/app/assets/logo/facebook.png"}  />
+                    <img src = {"src/client/app/assets/logo/instagram.png"}  />
+                </div>
 
-                        <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                            <ul className="nav navbar-nav navbar-left">
-                                <li className="hidden">
-                                    <a ></a>
-                                </li>
-                                <li className="dropdown">
-                                    <a className="dropdown-toggle" data-toggle="dropdown" >
-                                      หลักสูตร
-                                    </a>
-                                    <ul className="dropdown-menu multi-level" role="menu">
-                                      <li><a ><Link to="/course"  className="item">อนุบาล</Link></a></li>
-                                      <li><a >ประถม</a></li>
-                                      <li><a >มหาวิทยาลัย</a></li>
-                                      <li className="divider"></li>
-                                      <li className="dropdown-submenu">
-                                        <a tabIndex="-1" href="#">ติวสอบ</a>
-                                        <ul className="dropdown-menu">
-                                          <li><a tabIndex="-1">กลางภาค/ปลายภาค</a></li>
-                                          <li><a >GAT-PAT/7 วิชาสามัญ/O-NET</a></li>
-                                          <li><a >TU-GET /CU-TEP/ IGCSE /SAT /CU –ATT/ CU-TEP</a></li>
-                                        </ul>
-                                      </li>
-                                    </ul>
-                                </li>
-                                <li className="page-scroll">
-                                    <a >อัตราค่าเรียน</a>
-                                </li>
-                                <li className="page-scroll">
-                                    <a >ความสำเร็จ</a>
-                                </li>
-                                <li className="page-scroll">
-                                    <a >ทีมติวเตอร์</a>
-                                </li>
-                                <li className="page-scroll">
-                                    <a ><Link to="/register">สมัครเรียน</Link></a>
-                                </li>
-                            </ul>
-                        </div>
+
+            </div>
+            <div className = 'row menubar-row'>
+                <div className="col-md-2 col-md-offset-2 m-blue header-grid">
+                    <img src={"src/client/app/assets/logo/appbar.home.png"} />
+                	<span className ='navbar-item'>หน้าแรก</span>
+
+            	</div>
+                <div className="col-md-2 m-green header-grid dropdown" >
+                    <img src={"src/client/app/assets/logo/appbar.book.hardcover.open.writing.png"} />
+                    <span className ='navbar-item'>หลักสูตร</span>
+                    <div className="dropdown-content">
+                        <div className = 'dropdown-item'>อนุบาล</div>
+                        <div className = 'dropdown-item'>ประถมต้นและปลาย</div>
+                        <div className = 'dropdown-item'>มัธยมต้นและปลาย</div>
+                        <div className = 'dropdown-item'>มหาลัย</div>
                     </div>
 
-            </nav>
-</div>
+            	</div>
+                <div className=" col-md-2 m-yellow header-grid" >
+                    <img src={"src/client/app/assets/logo/appbar.leaderboard.png"} />
+                	<span className ='navbar-item'>สูตรลับความสำเร็จ</span>
+
+            	</div>
+                <div className="col-md-2 m-red header-grid">
+                    <img src={"src/client/app/assets/logo/appbar.edit.png"} />
+                	<span className ='navbar-item'>สมัครเรียน</span>
+
+            	</div>
+                <div className="col-md-2 m-purple header-grid">
+                    <img src={"src/client/app/assets/logo/appbar.phone.png"} />
+                	<span className ='navbar-item'>ติดต่อเรา</span>
+
+            	</div>
+            </div>
+        </div>
+
+
 
     );
   }

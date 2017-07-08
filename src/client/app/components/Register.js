@@ -6,6 +6,9 @@ class Register extends React.Component {
   render() {
     return (
     <div>
+            <div className = 'container'>
+                <img src = 'http://www.beyondstudycenter.com/uploaded/peet/new-how-to-apply.jpg' className="center-block img-responsive"/>
+            </div>
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12 text-center">

@@ -1,38 +1,78 @@
-
-.nav li ul{
-  position: absolute;
-  top: 74px; /*Adjust this to around 33px */
-  padding: 20px;
-
+.navbar-wrapper{
+    position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
 }
-.dropdown-menu{
-    background-color: #2C3E50;
+.contact-row{
+    padding-top : 2px;
+    padding-bottom: 2px;
+    background-color: #ffffff;
+}
+.menubar-row {
+    text-align: center;
+    color: #ffffff;
+}
+.header-grid{
+
+    padding-bottom: 10px;
+}
+.social-bar img{
+
+    padding-left: 5px;
+}
+.contact-row img{
+    width: 30px;
+    height: 20px;
+    padding-right: 5px;
 }
 
-
-.dropdown-submenu .dropdown-menu {
-    top: 0px;
-    left: 100%;
-    margin-top: 0;
-    border-top-left-radius: 0;
-    position:absolute;
-    height: 100%;
-}
-
-.dropdown-submenu:hover>.dropdown-menu {
+.navbar-item {
     display: block;
 }
-
-.dropdown-submenu>a:after {
-    display: block;
-    content: " ";
-    float: right;
-    width: 0;
-    height: 0;
-    border-color: transparent;
-    border-style: solid;
-    border-width: 5px 0 5px 5px;
-    border-left-color: #ccc;
-    margin-top: 5px;
-    margin-right: -10px;
+.line img{
+    width : 25px;
+    height: 20px;
 }
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #00c39d;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    left:0;
+    text-align: left;
+    z-index: 1;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    margin-top: 10px;
+
+
+}
+.dropdown-item{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid rgba(255,255,255,.25);
+}
+.m-purple { background-color: #a745ba; }
+.m-teal { background-color: #00ABA9; }
+.m-brown { background-color: #A05000; }
+.m-pink { background-color: #E671B8; }
+.m-yellow { background-color: #f8c700;}
+.m-orange { background-color: #F09609; }
+.m-blue { background-color: #0096e2; }
+.m-darkblue { background-color: #2f4860;}
+.m-red { background-color: #fc3019; }
+.m-green { background-color: #00c39d; }
+.m-grey { background-color: #b6b6b6; }
+.m-darkgrey { background-color: #606060; }
