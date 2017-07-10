@@ -11,11 +11,10 @@ class Register extends React.Component {
             </div>
             <div className="container">
                 <div className="row">
-                    <div className = 'col-md-4'></div>
-                    <div className="col-md-4 text-center header-metro-grid ">
-                        <h3>สมัครเรียน</h3>
-                    </div>
-                    <div className = 'col-md-4'></div>
+
+                        <h2>สมัครเรียน</h2>
+                        <hr className = 'red-colored-line'/>
+
                 </div>
                 <form className="form-horizontal">
                 <fieldset>
