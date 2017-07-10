@@ -2,8 +2,18 @@
     padding-top :100px;
     text-align: center;
 }
-hr.heart{
-	border-top: 4px double #8c8b8b;
-	text-align: center;
-    width: 400px;
+hr.red-colored-line
+{
+
+    border: 0 none;
+    background-color: #fc3019;
+    height: 2px;
+    width : 50%;
+}
+.header-metro-grid{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.register-container{
+    margin-bottom: 50px;
 }
