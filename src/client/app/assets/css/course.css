@@ -8,8 +8,8 @@
 .qa{
     padding-bottom: 40px;
 }
-.container h2 {
-    padding-top : 30px;
+.course-container h2 {
+    padding-top : 131px;
     text-align: center;
 }
 .qa h4{
@@ -23,10 +23,13 @@
     padding-top :60px;
     text-align: center;
 }
-hr.heart{
-	border-top: 4px double #8c8b8b;
-	text-align: center;
-    width: 400px;
+hr.colored-line
+{
+
+    border: 0 none;
+    background-color:  #00c39d;
+    height: 2px;
+    width : 50%;
 }
 div.table-title {
    display: block;
@@ -41,7 +44,7 @@ div.table-title {
    font-size: 30px;
    font-weight: 400;
    font-style:normal;
-   font-family: "Roboto", helvetica, arial, sans-serif;
+  
    text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
    text-transform:uppercase;
 }

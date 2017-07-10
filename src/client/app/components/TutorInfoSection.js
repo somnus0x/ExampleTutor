@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
+import "../assets/css/TutorInfoSection.css";
 
 import {Link} from 'react-router-dom'
 
@@ -8,42 +8,34 @@ class TutorInfoSection extends React.Component {
   render() {
     return (
         <div>
-        <section id="services">
+        <div className="tutor-container">
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-12 text-center">
-                        <h2 className="section-heading">Why Us ?</h2>
-                        <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <div className="col-md-12 text-center section-heading">
+                        <h2 >Why Us ?</h2>
+                        <hr className = 'blue-colored-line' />
                     </div>
                 </div>
-                <div className="row text-center">
-                    <div className="col-md-4">
-                        <span className="fa-stack fa-4x">
-                            <i className="fa fa-circle fa-stack-2x text-primary"></i>
-                            <i className="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 className="service-heading">รับประกันคุณภาพ</h4>
-                        <p className="text-muted">รับประกันคุณภาพ หากไม่พอใจการสอน ยินดีคืนเงินเต็มจำนวน</p>
+                <div className="row tutor-row">
+                    <div className="col-md-2 metro-grid m-blue col-md-offset-2">
+                        <img src ={'src/client/app/assets/logo/appbar.money.png'} />
+                        <p className="tutor-row-text">รับประกันคุณภาพ หากไม่พอใจการสอน ยินดีคืนเงินเต็มจำนวน</p>
                     </div>
-                    <div className="col-md-4">
-                        <span className="fa-stack fa-4x">
-                            <i className="fa fa-circle fa-stack-2x text-primary"></i>
-                            <i className="fa fa-laptop fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 className="service-heading">Responsive Design</h4>
-                        <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <div className="col-md-2 metro-grid m-green">
+                        <img src ={'src/client/app/assets/logo/appbar.lightbulb.png'} />
+                        <p className="tutor-row-text">ยินดีให้คำปรึกษา แนะแนวการเรียน โดยพี่ๆผู้เชี่ยวชาญทางด้านการเรียนการสอน มากกว่า 3 ปี</p>
                     </div>
-                    <div className="col-md-4">
-                        <span className="fa-stack fa-4x">
-                            <i className="fa fa-circle fa-stack-2x text-primary"></i>
-                            <i className="fa fa-lock fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 className="service-heading">Web Security</h4>
-                        <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <div className="col-md-2 metro-grid m-yellow">
+                        <img src ={'src/client/app/assets/logo/appbar.money.png'} />
+                        <p className="tutor-row-text">เริ่มต้นเพียง 150 บาท/ชม เท่านั้น</p>
+                    </div>
+                    <div className="col-md-2 metro-grid m-purple">
+                        <img src ={'src/client/app/assets/logo/appbar.star.png'} />
+                        <p className="tutor-row-text">“ความสำเร็จของลูกคุณ คือ จุดมุ่งหมายของเรา” “Your children success is our goal” </p>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     </div>
 
 

@@ -5,58 +5,97 @@ import "../assets/css/register.css";
 class Register extends React.Component {
   render() {
     return (
-    <div>
+    <div className = 'register-container'>
             <div className = 'container'>
                 <img src = 'http://www.beyondstudycenter.com/uploaded/peet/new-how-to-apply.jpg' className="center-block img-responsive"/>
             </div>
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-12 text-center">
-                        <h2>สมัครเรียน</h2>
-                        <hr className="heart"/>
+                    <div className = 'col-md-4'></div>
+                    <div className="col-md-4 text-center header-metro-grid ">
+                        <h3>สมัครเรียน</h3>
                     </div>
+                    <div className = 'col-md-4'></div>
                 </div>
-                <div className="row">
-                    <div className="col-lg-8 col-lg-offset-2">
-                        <form name="sentMessage" id="contactForm" novalidate>
-                            <div className="row control-group">
-                                <div className="form-group col-xs-12 floating-label-form-group controls">
-                                    <label for="name">Name</label>
-                                    <input type="text" className="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name."/>
-                                    <p className="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div className="row control-group">
-                                <div className="form-group col-xs-12 floating-label-form-group controls">
-                                    <label for="email">Email Address</label>
-                                    <input type="email" className="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address."/>
-                                    <p className="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div className="row control-group">
-                                <div className="form-group col-xs-12 floating-label-form-group controls">
-                                    <label for="phone">Phone Number</label>
-                                    <input type="tel" className="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number."/>
-                                    <p className="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div className="row control-group">
-                                <div className="form-group col-xs-12 floating-label-form-group controls">
-                                    <label for="message">Message</label>
-                                    <textarea rows="5" className="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
-                                    <p className="help-block text-danger"></p>
-                                </div>
-                            </div>
-                        <br/>
-                            <div id="success"></div>
-                            <div className="row">
-                                <div className="form-group col-xs-12">
-                                    <button type="submit" className="btn btn-success btn-lg">Send</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
+                <form className="form-horizontal">
+                <fieldset>
+
+
+                <div className="form-group">
+                    <label className="col-md-4 control-label" for="selectbasic">คำนำหน้า</label>
+                    <div className="col-md-2">
+                        <select id="selectbasic" name="selectbasic" className="form-control">
+                          <option value="1">ด.ช.</option>
+                          <option value="2">ด.ญ.</option>
+                          <option value="3">นาย</option>
+                          <option value="4">นางสาว</option>
+                        </select>
+                     </div>
                 </div>
+
+                <div className="form-group">
+                  <label className="col-md-4 control-label" for="textinput">ชื่อ นามสกุล</label>
+                  <div className="col-md-2">
+                  <input id="textinput" name="textinput" type="text" placeholder="ชื่อ" className="form-control input-md" required=""/>
+
+                  </div>
+                  <div className="col-md-2">
+                  <input id="textinput" name="textinput" type="text" placeholder="นามสกุล" className="form-control input-md" required=""/>
+
+                  </div>
+                </div>
+
+
+
+                <div className="form-group">
+                  <label className="col-md-4 control-label" for="email">เบอร์ติดต่อ</label>
+                  <div className="col-md-4">
+                  <input id="email" name="email" type="text" placeholder="096 883-4441" className="form-control input-md" required=""/>
+
+                  </div>
+                </div>
+
+                <div className="form-group">
+                    <label className="col-md-4 control-label" for="selectbasic">หลักสูตร</label>
+                    <div className="col-md-4">
+                        <select id="selectbasic" name="selectbasic" className="form-control">
+                          <option value="1">ประถม</option>
+                          <option value="2">มัธยม</option>
+                          <option value="3">มหาลัย</option>
+                          <option value="4">ติวสอบ</option>
+                        </select>
+                     </div>
+                </div>
+                <div className="form-group">
+                    <label className="col-md-4 control-label" for="selectbasic">คอร์สที่เลือก</label>
+                    <div className="col-md-4">
+                        <select id="selectbasic" name="selectbasic" className="form-control">
+                          <option value="1">ประถม</option>
+                          <option value="2">มัธยม</option>
+                          <option value="3">มหาลัย</option>
+                          <option value="4">ติวสอบ</option>
+                        </select>
+                     </div>
+                </div>
+
+                <div className="form-group">
+                  <label className="col-md-4 control-label" for="email">Line ID</label>
+                  <div className="col-md-4">
+                  <input id="email" name="email" type="text" placeholder="096 883-4441" className="form-control input-md" required=""/>
+
+                  </div>
+                </div>
+
+
+                <div className="form-group">
+                  <label className="col-md-4 control-label" for="singlebutton"></label>
+                  <div className="col-md-4">
+                    <button id="singlebutton" name="singlebutton" className="btn btn-primary">Register</button>
+                  </div>
+                </div>
+
+                </fieldset>
+                </form>
             </div>
     </div>
     );

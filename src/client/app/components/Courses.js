@@ -1,16 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import "../assets/css/index.css";
-import "../assets/css/table.css";
+import "../assets/css/course.css";
 
 class Courses extends React.Component {
   render() {
     return (
         <div>
-            <div className = 'jumbotron'>
+            <div className = 'course-container'>
                 <div>
                     <h2>อัตราค่าเรียน</h2>
-                    <hr className="heart"/>
+                    <hr className="colored-line"/>
                 </div>
                 <div className="table-title">
 
@@ -65,7 +65,7 @@ class Courses extends React.Component {
 
                 <div className = 'container qa'>
                     <h2>FAQ</h2>
-                    <hr className="heart"/>
+                    <hr className="colored-line"/>
                     <div className = 'row'>
                         <div className = 'col-md-2'></div>
                         <div className ='col-md-8'>
