@@ -5,14 +5,14 @@ import "../assets/css/register.css";
 class Register extends React.Component {
   render() {
     return (
-    <div className = 'register-container'>
+    <div >
             <div className = 'container'>
                 <img src = 'http://www.beyondstudycenter.com/uploaded/peet/new-how-to-apply.jpg' className="center-block img-responsive"/>
             </div>
-            <div className="container">
+            <div className="register-container">
                 <div className="row">
 
-                        <h2>สมัครเรียน</h2>
+                        <h2 className = 'text-center'>สมัครเรียน</h2>
                         <hr className = 'red-colored-line'/>
 
                 </div>

@@ -1,7 +1,4 @@
-.container h2 {
-    padding-top :100px;
-    text-align: center;
-}
+
 hr.red-colored-line
 {
 
@@ -10,10 +7,7 @@ hr.red-colored-line
     height: 2px;
     width : 50%;
 }
-.header-metro-grid{
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
 .register-container{
-    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }

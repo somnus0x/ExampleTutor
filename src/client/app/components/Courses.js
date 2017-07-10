@@ -7,9 +7,9 @@ class Courses extends React.Component {
   render() {
     return (
         <div>
-            <div className = 'course-container'>
+            <div className = 'container course-container'>
                 <div>
-                    <h2>อัตราค่าเรียน</h2>
+                    <h2 >อัตราค่าเรียน</h2>
                     <hr className="colored-line"/>
                 </div>
                 <div className="table-title">
@@ -53,7 +53,7 @@ class Courses extends React.Component {
                     </table>
                     <div className ="row">
                         <div className = 'col-md-3'></div>
-                        <div className = 'col-md-6'>
+                        <div className = 'col-md-6 notice'>
 
                             *หมายเหตุ<br/>
                             -ค่าเรียนทั้งหมดรวมค่าเดินทางและเอกสารการสอนแล้ว<br/>
@@ -64,7 +64,7 @@ class Courses extends React.Component {
             </div>
 
                 <div className = 'container qa'>
-                    <h2>FAQ</h2>
+                    <h2 className = 'text-center'>FAQ</h2>
                     <hr className="colored-line"/>
                     <div className = 'row'>
                         <div className = 'col-md-2'></div>

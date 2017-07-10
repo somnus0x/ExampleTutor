@@ -1,16 +1,13 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100);
-.col-md-6{
+.notice{
     padding-top: 20px;
 }
-.jumbotron {
-    margin-bottom: 0px;
+.course-container{
+    margin-top : 181px;
 }
 .qa{
-    padding-bottom: 40px;
-}
-.course-container h2 {
-    padding-top : 131px;
-    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .qa h4{
     font-size: 20px;
@@ -19,13 +16,8 @@
 .qa h5{
     font-size: 20px;
 }
-.jumbotron h2 {
-    padding-top :60px;
-    text-align: center;
-}
 hr.colored-line
 {
-
     border: 0 none;
     background-color:  #00c39d;
     height: 2px;
@@ -44,7 +36,7 @@ div.table-title {
    font-size: 30px;
    font-weight: 400;
    font-style:normal;
-  
+
    text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
    text-transform:uppercase;
 }
