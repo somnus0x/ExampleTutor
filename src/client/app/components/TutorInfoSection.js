@@ -7,13 +7,12 @@ import {Link} from 'react-router-dom'
 class TutorInfoSection extends React.Component {
   render() {
     return (
-        <div>
-        <div className="tutor-container">
-            <div className="container">
+        <div className="tutor-wrapper">
+            <div className="container tutor-container">
                 <div className="row">
                     <div className="col-md-12 text-center section-heading">
                         <h2 >Why Us ?</h2>
-                        <hr className = 'blue-colored-line' />
+                        <hr className = 'colored-line m-blue' />
                     </div>
                 </div>
                 <div className="row tutor-row">
@@ -36,7 +35,6 @@ class TutorInfoSection extends React.Component {
                 </div>
             </div>
         </div>
-    </div>
 
 
     );

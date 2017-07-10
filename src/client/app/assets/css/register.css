@@ -1,13 +1,3 @@
-
-hr.red-colored-line
-{
-
-    border: 0 none;
-    background-color: #fc3019;
-    height: 2px;
-    width : 50%;
-}
-.register-container{
-    padding-top: 50px;
-    padding-bottom: 50px;
+.instruction-container{
+    margin-top: 131px;
 }

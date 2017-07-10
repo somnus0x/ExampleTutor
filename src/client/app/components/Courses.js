@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import "../assets/css/index.css";
 import "../assets/css/course.css";
 
 class Courses extends React.Component {
@@ -9,8 +8,8 @@ class Courses extends React.Component {
         <div>
             <div className = 'container course-container'>
                 <div>
-                    <h2 >อัตราค่าเรียน</h2>
-                    <hr className="colored-line"/>
+                    <h2 className = 'text-center'>อัตราค่าเรียน</h2>
+                    <hr className="colored-line m-green"/>
                 </div>
                 <div className="table-title">
 
@@ -65,7 +64,7 @@ class Courses extends React.Component {
 
                 <div className = 'container qa'>
                     <h2 className = 'text-center'>FAQ</h2>
-                    <hr className="colored-line"/>
+                    <hr className="colored-line m-green"/>
                     <div className = 'row'>
                         <div className = 'col-md-2'></div>
                         <div className ='col-md-8'>

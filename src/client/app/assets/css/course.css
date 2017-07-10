@@ -1,27 +1,17 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100);
+
 .notice{
     padding-top: 20px;
 }
 .course-container{
-    margin-top : 181px;
+    margin-top : 131px;
 }
-.qa{
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
+
 .qa h4{
     font-size: 20px;
     color: #5cb85c;
 }
 .qa h5{
     font-size: 20px;
-}
-hr.colored-line
-{
-    border: 0 none;
-    background-color:  #00c39d;
-    height: 2px;
-    width : 50%;
 }
 div.table-title {
    display: block;

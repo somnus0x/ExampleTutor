@@ -9,7 +9,7 @@ class OurSuccess extends React.Component{
                 <div className = 'container showcase-container'>
                     <div className = 'showcase-header-wrapper'>
                         <h2>ผลงานการสอน</h2>
-                        <hr className ='yellow-colored-line' />
+                        <hr className ='colored-line m-yellow' />
                     </div>
                     <div className = 'row'>
                         <div className = 'col-md-6'>

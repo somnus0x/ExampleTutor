@@ -84,21 +84,6 @@
     background-color: #00c39d;
 }
 
-
-.m-purple { background-color: #a745ba; }
-.m-teal { background-color: #00ABA9; }
-.m-brown { background-color: #A05000; }
-.m-pink { background-color: #E671B8; }
-.m-yellow { background-color: #f8c700;}
-.m-orange { background-color: #F09609; }
-.m-blue { background-color: #0096e2; }
-.m-darkblue { background-color: #2f4860;}
-.m-red { background-color: #fc3019; }
-.m-green { background-color: #00c39d; }
-.m-grey { background-color: #b6b6b6; }
-.m-darkgrey { background-color: #606060; }
-.m-white {background-color: #ffffff; }
-
 .nav li ul{
   position: absolute;
   top: 74px; /*Adjust this to around 33px */
