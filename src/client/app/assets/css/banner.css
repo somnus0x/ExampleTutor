@@ -1,7 +1,6 @@
 .fade-carousel {
     position: relative;
     height: 75vh;
-    margin-top: 131px;
 }
 .fade-carousel .carousel-inner .item {
     height: 75vh;

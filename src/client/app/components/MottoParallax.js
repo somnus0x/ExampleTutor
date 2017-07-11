@@ -10,9 +10,9 @@ class MottoParallax extends React.Component {
     return (
         <div>
         <section className="section parallax parallax-1">
-          <div className="container">
+
             <h1>Your children success is our goal!</h1>
-          </div>
+
         </section>
     </div>
     );

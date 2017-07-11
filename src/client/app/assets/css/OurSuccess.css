@@ -1,5 +1,4 @@
 .banner {
-    margin-top: 131px;
     height: 75vh;
     background-size: cover;
     background-position: center center;
@@ -10,11 +9,22 @@
     text-align: center;
     padding-bottom: 20px;
 }
+.mobile-showcase{
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
 .showcase img{
+    width: 75%;
+    height: 75%;
+}
+.mobile-showcase img{
     width: 75%;
     height: 75%;
 }
 .caption{
     width:300px;
     padding-left: 10px;
+}
+.mobile-caption{
+    margin-top: 20px;
 }
