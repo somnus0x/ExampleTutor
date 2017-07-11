@@ -48,7 +48,9 @@
 .dropdown-menu{
     margin-top: -2px;
 }
-
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
 
 .dropdown-submenu .dropdown-menu {
     top: 0px;
