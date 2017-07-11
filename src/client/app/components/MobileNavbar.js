@@ -28,7 +28,7 @@ class MobileNavbar extends React.Component
                                         <a className="dropdown-toggle" data-toggle="dropdown" href="#">
                                           หลักสูตร
                                         </a>
-                                        <ul className="dropdown-menu multi-level" role="menu">
+                                        <ul className="dropdown-menu mobile-multi-level" role="menu">
                                           <li><a href="/Course">อนุบาล</a></li>
                                           <li><a href="#">ประถม</a></li>
                                           <li><a href="#">มหาวิทยาลัย</a></li>
