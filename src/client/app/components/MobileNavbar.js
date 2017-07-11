@@ -16,7 +16,9 @@ class MobileNavbar extends React.Component
                                 <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                                     <span className="sr-only">Toggle navigation</span> Menu <i className="fa fa-bars"></i>
                                 </button>
+                                <Link to = '/' style={{ textDecoration: 'none' }}>
                                 <a className="navbar-brand" href="/">CU TUTOR</a>
+                                </Link>
                             </div>
 
                             <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -29,7 +31,11 @@ class MobileNavbar extends React.Component
                                           หลักสูตร
                                         </a>
                                         <ul className="dropdown-menu mobile-multi-level" role="menu">
-                                          <li><a href="/Course">อนุบาล</a></li>
+                                          <li>
+                                              <Link to = '/course' style={{ textDecoration: 'none' }}>
+                                              <a href="">อนุบาล</a>
+                                              </Link>
+                                          </li>
                                           <li><a href="#">ประถม</a></li>
                                           <li><a href="#">มหาวิทยาลัย</a></li>
                                           <li className="divider"></li>
@@ -43,17 +49,20 @@ class MobileNavbar extends React.Component
                                           </li>
                                         </ul>
                                     </li>
-                                    <li className="page-scroll">
-                                        <a href="#about">อัตราค่าเรียน</a>
+                                    <li>
+                                        <Link to = '/success' style={{ textDecoration: 'none' }}>
+                                        <a href="">ความสำเร็จของเรา</a>
+                                        </Link>
                                     </li>
-                                    <li className="page-scroll">
-                                        <a href="#contact">ความสำเร็จ</a>
+                                    <li>
+                                        <Link to = '/register' style={{ textDecoration: 'none' }}>
+                                        <a href="">สมัครเรียน</a>
+                                        </Link>
                                     </li>
-                                    <li className="page-scroll">
-                                        <a href="#contact">ทีมติวเตอร์</a>
-                                    </li>
-                                    <li className="page-scroll">
-                                        <a href="/Register">สมัครเรียน</a>
+                                    <li >
+                                        <Link to = '/articles' style={{ textDecoration: 'none' }}>
+                                        <a href="">สูตรลับเรียนเก่ง</a>
+                                        </Link>
                                     </li>
                                 </ul>
                             </div>
