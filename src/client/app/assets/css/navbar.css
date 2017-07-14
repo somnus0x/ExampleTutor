@@ -15,15 +15,15 @@
     color: #ffffff;
 }
 .header-grid{
-
+    height:106px;
     padding-bottom: 10px;
 }
 .logo-grid{
     background-color: #ffffff;
 }
 .logo-grid img{
-    width: 65%;
-    height:65%;
+    width: 150px;
+    height:90px;
 }
 .social-bar img{
 
