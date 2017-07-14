@@ -1,6 +1,9 @@
-
+@font-face {
+    font-family: 'BoonJot';
+    src: url('../fonts/BoonJot-Regular.otf');
+}
 body {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'BoonJot';
   overflow-x: hidden;
 }
 .desktop-navbar-offset{

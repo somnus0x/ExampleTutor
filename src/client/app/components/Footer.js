@@ -12,7 +12,7 @@ class Footer extends React.Component {
             <div className="footer-below">
                     <div className="row">
                         <div className="col-lg-12">
-                            Copyright &copy; CULearningHome
+                            Copyrights &copy; 2017 CULearningHome All Right Reserved.
                         </div>
                     </div>
 

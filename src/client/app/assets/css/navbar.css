@@ -1,4 +1,9 @@
+@font-face {
+    font-family: 'Quark-Light';
+    src: url('../fonts/Quark-Light.otf');
+}
 .navbar-wrapper{
+    font-family: 'Quark-Light';
     position: fixed;
   top: 0;
   left: 0;
@@ -11,18 +16,19 @@
     background-color: #ffffff;
 }
 .menubar-row {
+    font-size: 20px;
     text-align: center;
     color: #ffffff;
+    padding-bottom: 10px;
 }
 .header-grid{
-    height:106px;
+    height:107px;
     padding-bottom: 10px;
 }
 .logo-grid{
     background-color: #ffffff;
 }
 .logo-grid img{
-    width: 150px;
     height:90px;
 }
 .social-bar img{
@@ -47,6 +53,7 @@
 }
 .dropdown-menu{
     margin-top: -2px;
+    font-size: 20px;
 }
 .dropdown:hover .multi-level{
 

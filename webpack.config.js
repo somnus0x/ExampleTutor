@@ -12,7 +12,9 @@ var config = {
     filename: 'bundle.js',
   },
   devServer: {
-    
+    historyApiFallback: {
+      index: 'index.html'
+    }
   },
   module: {
     loaders: [
@@ -40,7 +42,9 @@ var config = {
         //   modules: true,
         //   localIdentName: '[name]__[local]___[hash:base64:5]'
         // }
-      }
+    },
+    { test: /\.(ttf|otf|eot|svg|woff(2)?)(\?[a-z0-9]+)?$/,
+    loader: 'file-loader?name=fonts/[name].[ext]' }
 
 
     ],
