@@ -50,20 +50,20 @@ class TutorInfoSection extends React.Component {
                                 <hr className='colored-line m-blue'/>
                             </div>
                         </div>
-                        <div className="row tutor-row">
-                            <div className="col-md-2 mobile-metro-grid m-blue col-md-offset-2">
+                        <div className="row mobile-tutor-row">
+                            <div className="col-md-2 mobile-metro-grid m-blue col-md-offset-2 center-block">
                                 <img src ={'src/client/app/assets/logo/appbar.money.png'}/>
                                 <p className="tutor-row-text">รับประกันคุณภาพ หากไม่พอใจการสอน ยินดีคืนเงินเต็มจำนวน</p>
                             </div>
-                            <div className="col-md-2 mobile-metro-grid m-green">
+                            <div className="col-md-2 mobile-metro-grid m-green center-block">
                                 <img src ={'src/client/app/assets/logo/appbar.lightbulb.png'}/>
                                 <p className="tutor-row-text">ยินดีให้คำปรึกษา แนะแนวการเรียน โดยพี่ๆผู้เชี่ยวชาญทางด้านการเรียนการสอน มากกว่า 3 ปี</p>
                             </div>
-                            <div className="col-md-2 mobile-metro-grid m-yellow">
+                            <div className="col-md-2 mobile-metro-grid m-yellow center-block">
                                 <img src ={'src/client/app/assets/logo/appbar.money.png'}/>
                                 <p className="tutor-row-text">เริ่มต้นเพียง 150 บาท/ชม เท่านั้น</p>
                             </div>
-                            <div className="col-md-2 mobile-metro-grid m-purple">
+                            <div className="col-md-2 mobile-metro-grid m-purple center-block">
                                 <img src ={'src/client/app/assets/logo/appbar.star.png'}/>
                                 <p className="tutor-row-text">“ความสำเร็จของลูกคุณ คือ จุดมุ่งหมายของเรา” “Your children success is our goal”
                                 </p>
@@ -81,20 +81,20 @@ class TutorInfoSection extends React.Component {
                                 <hr className='colored-line m-blue'/>
                             </div>
                         </div>
-                        <div className="row tutor-row">
-                            <div className="col-md-2 mobile-metro-grid m-blue col-md-offset-2">
+                        <div className="row mobile-tutor-row">
+                            <div className="col-md-2 mobile-metro-grid m-blue col-md-offset-2 center-block">
                                 <img src ={'src/client/app/assets/logo/appbar.money.png'}/>
                                 <p className="tutor-row-text">รับประกันคุณภาพ หากไม่พอใจการสอน ยินดีคืนเงินเต็มจำนวน</p>
                             </div>
-                            <div className="col-md-2 mobile-metro-grid m-green">
+                            <div className="col-md-2 mobile-metro-grid m-green center-block">
                                 <img src ={'src/client/app/assets/logo/appbar.lightbulb.png'}/>
                                 <p className="tutor-row-text">ยินดีให้คำปรึกษา แนะแนวการเรียน โดยพี่ๆผู้เชี่ยวชาญทางด้านการเรียนการสอน มากกว่า 3 ปี</p>
                             </div>
-                            <div className="col-md-2 mobile-metro-grid m-yellow">
+                            <div className="col-md-2 mobile-metro-grid m-yellow center-block">
                                 <img src ={'src/client/app/assets/logo/appbar.money.png'}/>
                                 <p className="tutor-row-text">เริ่มต้นเพียง 150 บาท/ชม เท่านั้น</p>
                             </div>
-                            <div className="col-md-2 mobile-metro-grid m-purple">
+                            <div className="col-md-2 mobile-metro-grid m-purple center-block">
                                 <img src ={'src/client/app/assets/logo/appbar.star.png'}/>
                                 <p className="tutor-row-text">“ความสำเร็จของลูกคุณ คือ จุดมุ่งหมายของเรา” “Your children success is our goal”
                                 </p>

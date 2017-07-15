@@ -1,3 +1,14 @@
 .article-row{
     padding-top: 20px;
+
+}
+.mobile-article-row{
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.img-responsive{
+    display: block;
+    margin: 0 auto;
 }
