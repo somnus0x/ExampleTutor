@@ -1,9 +1,9 @@
 
 .navbar-custom {
   background: white;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
   text-transform: uppercase;
-  font-weight: 700;
+
   border: none;
 }
 .navbar-custom .navbar-brand {
@@ -19,7 +19,7 @@
   letter-spacing: 1px;
 }
 .navbar-custom .navbar-nav li a {
-  color: black;
+
 }
 .navbar-custom .navbar-nav li a:hover {
   color: #18BC9C;

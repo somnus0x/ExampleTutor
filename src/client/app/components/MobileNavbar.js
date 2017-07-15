@@ -17,7 +17,7 @@ class MobileNavbar extends React.Component
                                     <span className="sr-only">Toggle navigation</span> Menu <i className="fa fa-bars"></i>
                                 </button>
                                 <Link to = '/' style={{ textDecoration: 'none' }}>
-                                <a className="navbar-brand" href="/">CU TUTOR</a>
+                                <a className="navbar-brand" href="/">CULearninghome</a>
                                 </Link>
                             </div>
 
@@ -27,41 +27,67 @@ class MobileNavbar extends React.Component
                                         <a href="#page-top"></a>
                                     </li>
                                     <li className="dropdown">
-                                        <a className="dropdown-toggle" data-toggle="dropdown" href="#">
+                                        <a className="dropdown-toggle green" data-toggle="dropdown" href="#">
                                           หลักสูตร
                                         </a>
                                         <ul className="dropdown-menu mobile-multi-level" role="menu">
                                           <li>
                                               <Link to = '/course' style={{ textDecoration: 'none' }}>
-                                              <a href="">อนุบาล</a>
+                                              <div className = 'green'>อนุบาล</div>
                                               </Link>
                                           </li>
-                                          <li><a href="#">ประถม</a></li>
-                                          <li><a href="#">มหาวิทยาลัย</a></li>
+                                          <li>
+                                              <Link to = '/course' style={{ textDecoration: 'none' }}>
+                                              <div className = 'green'>ประถม</div>
+                                              </Link>
+                                          </li>
+                                          <li>
+                                              <Link to = '/course' style={{ textDecoration: 'none' }}>
+                                              <div className = 'green'>มัธยม</div>
+                                              </Link>
+                                          </li>
+                                          <li>
+                                              <Link to = '/course' style={{ textDecoration: 'none' }}>
+                                              <div className = 'green'>มหาลัย</div>
+                                              </Link>
+                                          </li>
                                           <li className="divider"></li>
                                           <li className="dropdown-submenu">
                                             <a tabindex="-1" href="#">ติวสอบ</a>
                                             <ul className="dropdown-menu">
-                                              <li><a tabindex="-1" href="#">กลางภาค/ปลายภาค</a></li>
-                                              <li><a href="#">GAT-PAT/7 วิชาสามัญ/O-NET</a></li>
-                                              <li><a href="#">TU-GET /CU-TEP/ IGCSE /SAT /CU –ATT/ CU-TEP</a></li>
+                                                <li>
+                                                    <Link to = '/course' style={{ textDecoration: 'none' }}>
+                                                    <div className = 'green'>กลางภาค/ปลายภาค</div>
+                                                    </Link>
+                                                </li>
+                                                <li>
+                                                    <Link to = '/course' style={{ textDecoration: 'none' }}>
+                                                    <div className = 'green'>GAT-PAT/7 วิชาสามัญ/O-NET</div>
+                                                    </Link>
+                                                </li>
+                                                <li>
+                                                    <Link to = '/course' style={{ textDecoration: 'none' }}>
+                                                    <div className = 'green'>TU-GET /CU-TEP/ IGCSE /SAT /CU –ATT/ CU-TEP</div>
+                                                    </Link>
+                                                </li>
+
                                             </ul>
                                           </li>
                                         </ul>
                                     </li>
                                     <li>
                                         <Link to = '/success' style={{ textDecoration: 'none' }}>
-                                        <a href="">ความสำเร็จของเรา</a>
+                                        <div className = 'yellow'>ความสำเร็จของเรา</div>
                                         </Link>
                                     </li>
                                     <li>
                                         <Link to = '/register' style={{ textDecoration: 'none' }}>
-                                        <a href="">สมัครเรียน</a>
+                                            <div className = 'red'>สมัครเรียน</div>
                                         </Link>
                                     </li>
                                     <li >
                                         <Link to = '/articles' style={{ textDecoration: 'none' }}>
-                                        <a href="">สูตรลับเรียนเก่ง</a>
+                                            <div className = 'purple'>สูตรลับเรียนเก่ง</div>
                                         </Link>
                                     </li>
                                 </ul>

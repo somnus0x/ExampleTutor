@@ -37,11 +37,11 @@ class Articles extends React.Component {
                     <ArticleRow />
                 </Desktop>
                 <Tablet>
-                    <MobileArticleRow />
-                    <MobileArticleRow />
-                    <MobileArticleRow />
-                    <MobileArticleRow />
-                    <MobileArticleRow />
+                    <ArticleRow />
+                    <ArticleRow />
+                    <ArticleRow />
+                    <ArticleRow />
+                    <ArticleRow />
                 </Tablet>>
                 <Mobile>
                     <MobileArticleRow />
