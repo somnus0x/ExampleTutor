@@ -22,7 +22,7 @@ class Register extends React.Component {
                 <Desktop>
                     <div className='register-wrapper'>
                         <div className='container '>
-                            <img src='http://www.beyondstudycenter.com/uploaded/peet/new-how-to-apply.jpg' className="center-block img-responsive"/>
+                            <img src='src/client/app/assets/images/process.jpg' className="center-block img-responsive"/>
                         </div>
                         <div className="register-container container">
                             <div className="row">
@@ -112,7 +112,7 @@ class Register extends React.Component {
                 <Tablet>
                     <div className='mobile-register-wrapper'>
                         <div className='container '>
-                            <img src='http://www.beyondstudycenter.com/uploaded/peet/new-how-to-apply.jpg' className="center-block img-responsive"/>
+                            <img src='src/client/app/assets/images/process.jpg' className="center-block img-responsive"/>
                         </div>
                         <div className="register-container container">
                             <div className="row">
@@ -202,7 +202,7 @@ class Register extends React.Component {
                 <Mobile>
                     <div className='mobile-register-wrapper'>
                         <div className='container '>
-                            <img src='http://www.beyondstudycenter.com/uploaded/peet/new-how-to-apply.jpg' className="center-block img-responsive"/>
+                            <img src='src/client/app/assets/images/process.jpg' className="center-block img-responsive"/>
                         </div>
                         <div className="register-container container">
                             <div className="row">
