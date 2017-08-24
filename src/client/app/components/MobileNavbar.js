@@ -37,7 +37,7 @@ class MobileNavbar extends React.Component
                                               </Link>
                                           </li>
                                           <li>
-                                              <Link to = '/course' style={{ textDecoration: 'none' }}>
+                                              <Link to = '/primaryschool' style={{ textDecoration: 'none' }}>
                                               <div className = 'green'>ประถม</div>
                                               </Link>
                                           </li>

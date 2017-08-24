@@ -31,24 +31,14 @@ class Articles extends React.Component {
                 </div>
                 <Desktop>
                     <ArticleRow />
-                    <ArticleRow />
-                    <ArticleRow />
-                    <ArticleRow />
-                    <ArticleRow />
+
                 </Desktop>
                 <Tablet>
-                    <ArticleRow />
-                    <ArticleRow />
-                    <ArticleRow />
-                    <ArticleRow />
                     <ArticleRow />
                 </Tablet>>
                 <Mobile>
                     <MobileArticleRow />
-                    <MobileArticleRow />
-                    <MobileArticleRow />
-                    <MobileArticleRow />
-                    <MobileArticleRow />
+
                 </Mobile>
 
                 <div className="row text-center">

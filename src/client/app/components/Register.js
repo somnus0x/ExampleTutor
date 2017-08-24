@@ -26,10 +26,8 @@ class Register extends React.Component {
                         </div>
                         <div className="register-container container">
                             <div className="row">
-
                                 <h2 className='text-center'>สมัครเรียน</h2>
                                 <hr className='colored-line m-red'/>
-
                             </div>
                             <form className="form-horizontal">
                                 <fieldset>
@@ -67,35 +65,124 @@ class Register extends React.Component {
                                     </div>
 
                                     <div className="form-group">
-                                        <label className="col-md-4 control-label" for="selectbasic">หลักสูตร</label>
-                                        <div className="col-md-4">
-                                            <select id="selectbasic" name="selectbasic" className="form-control">
-                                                <option value="1">ประถม</option>
-                                                <option value="2">มัธยม</option>
-                                                <option value="3">มหาลัย</option>
-                                                <option value="4">ติวสอบ</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div className="form-group">
-                                        <label className="col-md-4 control-label" for="selectbasic">คอร์สที่เลือก</label>
-                                        <div className="col-md-4">
-                                            <select id="selectbasic" name="selectbasic" className="form-control">
-                                                <option value="1">ประถม</option>
-                                                <option value="2">มัธยม</option>
-                                                <option value="3">มหาลัย</option>
-                                                <option value="4">ติวสอบ</option>
-                                            </select>
-                                        </div>
-                                    </div>
-
-                                    <div className="form-group">
                                         <label className="col-md-4 control-label" for="email">Line ID</label>
                                         <div className="col-md-4">
-                                            <input id="email" name="email" type="text" placeholder="096 883-4441" className="form-control input-md" required=""/>
+                                            <input id="lineid" name="lineid" type="text" placeholder="@culh" className="form-control input-md" required=""/>
 
                                         </div>
                                     </div>
+
+                                    <div className="form-group">
+                                        <label className="col-md-4 control-label" for="email">สถานศึกษา</label>
+                                        <div className="col-md-4">
+                                            <input id="school" name="school" type="text" placeholder="096 883-4441" className="form-control input-md" required=""/>
+
+                                        </div>
+                                    </div>
+
+                                    <div className="form-group">
+                                        <label className="col-md-4 control-label" for="selectbasic">ระดับชั้น</label>
+                                        <div className="col-md-4">
+                                            <select id="selectbasic" name="selectbasic" className="form-control">
+                                                <option value="1">ประถม</option>
+                                                <option value="2">มัธยม</option>
+                                                <option value="3">มหาลัย</option>
+                                                <option value="4">ติวสอบ</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div className="form-group">
+                                        <label className="col-md-4 control-label" for="selectbasic">หลักสูตร</label>
+                                        <div className="col-md-4">
+                                            <div className="checkbox-inline ">
+                                                <label>
+                                                    <input type="checkbox" value=""/>หลักสูตรปกติ
+                                                    </label>
+                                            </div>
+                                            <div className="checkbox-inline ">
+                                                <label>
+                                                    <input type="checkbox" value=""/>หลักสูตร EP
+                                                    </label>
+                                            </div>
+                                            <div className="checkbox-inline ">
+                                                <label>
+                                                    <input type="checkbox" value=""/> หลักสูตร Inter
+                                                    </label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="form-group">
+                                        <label className="col-md-4 control-label" for="email">วิชาที่ต้องการเรียน</label>
+                                        <div className="col-md-4">
+                                            <input id="subject" name="subject" type="text" placeholder="เลข" className="form-control input-md" required=""/>
+                                        </div>
+                                    </div>
+
+                                    <div className="form-group">
+                                        <label className="col-md-4 control-label" for="email">วันเวลาที่ต้องการเรียน</label>
+                                        <div className="col-md-4">
+                                            <input id="subject" name="subject" type="text" placeholder="" className="form-control input-md" required=""/>
+                                        </div>
+                                    </div>
+
+                                    <div className="form-group">
+                                        <label className="col-md-4 control-label" for="email">สถานที่เรียน</label>
+                                        <div className="col-md-4">
+                                             <textarea className ="form-control" rows="3" placeholder="" required></textarea>
+                                        </div>
+                                    </div>
+
+                                    <div className="form-group">
+                                        <label className="col-md-4 control-label" for="email">คุณสมบัติติวเตอร์</label>
+                                        <div className="col-md-4">
+                                             <textarea className ="form-control" rows="3" placeholder="" required></textarea>
+                                        </div>
+                                    </div>
+
+                                    <div className="form-group">
+                                        <label className="col-md-4 control-label" for="selectbasic">ผู้ติดต่อ</label>
+                                        <div className="col-md-4">
+                                            <div className="checkbox-inline ">
+                                                <label>
+                                                    <input type="checkbox" value=""/>นักเรียน
+                                                    </label>
+                                            </div>
+                                            <div className="checkbox-inline ">
+                                                <label>
+                                                    <input type="checkbox" value=""/>ผู้ปกครอง
+                                                    </label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="form-group">
+                                        <label className="col-md-4 control-label" for="selectbasic">ผู้ติดต่อ</label>
+                                        <div className="col-md-4">
+                                            <div className="checkbox-inline ">
+                                                <label>
+                                                    <input type="checkbox" value=""/>เพื่อน/บุคลลอื่น
+                                                    </label>
+                                            </div>
+                                            <div className="checkbox-inline ">
+                                                <label>
+                                                    <input type="checkbox" value=""/>เวบไซต์
+                                                    </label>
+                                            </div>
+                                            <div className="checkbox-inline ">
+                                                <label>
+                                                    <input type="checkbox" value=""/>Google
+                                                    </label>
+                                            </div>
+                                            <div className="checkbox-inline ">
+                                                <label>
+                                                    <input type="checkbox" value=""/>Facebook
+                                                    </label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
 
                                     <div className="form-group">
                                         <label className="col-md-4 control-label" for="singlebutton"></label>
@@ -116,10 +203,8 @@ class Register extends React.Component {
                         </div>
                         <div className="register-container container">
                             <div className="row">
-
                                 <h2 className='text-center'>สมัครเรียน</h2>
                                 <hr className='colored-line m-red'/>
-
                             </div>
                             <form className="form-horizontal">
                                 <fieldset>
@@ -157,35 +242,124 @@ class Register extends React.Component {
                                     </div>
 
                                     <div className="form-group">
-                                        <label className="col-md-4 control-label" for="selectbasic">หลักสูตร</label>
-                                        <div className="col-md-4">
-                                            <select id="selectbasic" name="selectbasic" className="form-control">
-                                                <option value="1">ประถม</option>
-                                                <option value="2">มัธยม</option>
-                                                <option value="3">มหาลัย</option>
-                                                <option value="4">ติวสอบ</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div className="form-group">
-                                        <label className="col-md-4 control-label" for="selectbasic">คอร์สที่เลือก</label>
-                                        <div className="col-md-4">
-                                            <select id="selectbasic" name="selectbasic" className="form-control">
-                                                <option value="1">ประถม</option>
-                                                <option value="2">มัธยม</option>
-                                                <option value="3">มหาลัย</option>
-                                                <option value="4">ติวสอบ</option>
-                                            </select>
-                                        </div>
-                                    </div>
-
-                                    <div className="form-group">
                                         <label className="col-md-4 control-label" for="email">Line ID</label>
                                         <div className="col-md-4">
-                                            <input id="email" name="email" type="text" placeholder="096 883-4441" className="form-control input-md" required=""/>
+                                            <input id="lineid" name="lineid" type="text" placeholder="@culh" className="form-control input-md" required=""/>
 
                                         </div>
                                     </div>
+
+                                    <div className="form-group">
+                                        <label className="col-md-4 control-label" for="email">สถานศึกษา</label>
+                                        <div className="col-md-4">
+                                            <input id="school" name="school" type="text" placeholder="096 883-4441" className="form-control input-md" required=""/>
+
+                                        </div>
+                                    </div>
+
+                                    <div className="form-group">
+                                        <label className="col-md-4 control-label" for="selectbasic">ระดับชั้น</label>
+                                        <div className="col-md-4">
+                                            <select id="selectbasic" name="selectbasic" className="form-control">
+                                                <option value="1">ประถม</option>
+                                                <option value="2">มัธยม</option>
+                                                <option value="3">มหาลัย</option>
+                                                <option value="4">ติวสอบ</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div className="form-group">
+                                        <label className="col-md-4 control-label" for="selectbasic">หลักสูตร</label>
+                                        <div className="col-md-4">
+                                            <div className="checkbox-inline ">
+                                                <label>
+                                                    <input type="checkbox" value=""/>หลักสูตรปกติ
+                                                    </label>
+                                            </div>
+                                            <div className="checkbox-inline ">
+                                                <label>
+                                                    <input type="checkbox" value=""/>หลักสูตร EP
+                                                    </label>
+                                            </div>
+                                            <div className="checkbox-inline ">
+                                                <label>
+                                                    <input type="checkbox" value=""/> หลักสูตร Inter
+                                                    </label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="form-group">
+                                        <label className="col-md-4 control-label" for="email">วิชาที่ต้องการเรียน</label>
+                                        <div className="col-md-4">
+                                            <input id="subject" name="subject" type="text" placeholder="" className="form-control input-md" required=""/>
+                                        </div>
+                                    </div>
+
+                                    <div className="form-group">
+                                        <label className="col-md-4 control-label" for="email">วันเวลาที่ต้องการเรียน</label>
+                                        <div className="col-md-4">
+                                            <input id="subject" name="subject" type="text" placeholder="" className="form-control input-md" required=""/>
+                                        </div>
+                                    </div>
+
+                                    <div className="form-group">
+                                        <label className="col-md-4 control-label" for="email">สถานที่เรียน</label>
+                                        <div className="col-md-4">
+                                             <textarea className ="form-control" rows="3" placeholder="" required></textarea>
+                                        </div>
+                                    </div>
+
+                                    <div className="form-group">
+                                        <label className="col-md-4 control-label" for="email">คุณสมบัติติวเตอร์</label>
+                                        <div className="col-md-4">
+                                             <textarea className ="form-control" rows="3" placeholder="" required></textarea>
+                                        </div>
+                                    </div>
+
+                                    <div className="form-group">
+                                        <label className="col-md-4 control-label" for="selectbasic">ผู้ติดต่อ</label>
+                                        <div className="col-md-4">
+                                            <div className="checkbox-inline ">
+                                                <label>
+                                                    <input type="checkbox" value=""/>นักเรียน
+                                                    </label>
+                                            </div>
+                                            <div className="checkbox-inline ">
+                                                <label>
+                                                    <input type="checkbox" value=""/>ผู้ปกครอง
+                                                    </label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="form-group">
+                                        <label className="col-md-4 control-label" for="selectbasic">ผู้ติดต่อ</label>
+                                        <div className="col-md-4">
+                                            <div className="checkbox-inline ">
+                                                <label>
+                                                    <input type="checkbox" value=""/>เพื่อน/บุคลลอื่น
+                                                    </label>
+                                            </div>
+                                            <div className="checkbox-inline ">
+                                                <label>
+                                                    <input type="checkbox" value=""/>เวบไซต์
+                                                    </label>
+                                            </div>
+                                            <div className="checkbox-inline ">
+                                                <label>
+                                                    <input type="checkbox" value=""/>Google
+                                                    </label>
+                                            </div>
+                                            <div className="checkbox-inline ">
+                                                <label>
+                                                    <input type="checkbox" value=""/>Facebook
+                                                    </label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
 
                                     <div className="form-group">
                                         <label className="col-md-4 control-label" for="singlebutton"></label>
@@ -206,10 +380,8 @@ class Register extends React.Component {
                         </div>
                         <div className="register-container container">
                             <div className="row">
-
                                 <h2 className='text-center'>สมัครเรียน</h2>
                                 <hr className='colored-line m-red'/>
-
                             </div>
                             <form className="form-horizontal">
                                 <fieldset>
@@ -247,35 +419,124 @@ class Register extends React.Component {
                                     </div>
 
                                     <div className="form-group">
-                                        <label className="col-md-4 control-label" for="selectbasic">หลักสูตร</label>
-                                        <div className="col-md-4">
-                                            <select id="selectbasic" name="selectbasic" className="form-control">
-                                                <option value="1">ประถม</option>
-                                                <option value="2">มัธยม</option>
-                                                <option value="3">มหาลัย</option>
-                                                <option value="4">ติวสอบ</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div className="form-group">
-                                        <label className="col-md-4 control-label" for="selectbasic">คอร์สที่เลือก</label>
-                                        <div className="col-md-4">
-                                            <select id="selectbasic" name="selectbasic" className="form-control">
-                                                <option value="1">ประถม</option>
-                                                <option value="2">มัธยม</option>
-                                                <option value="3">มหาลัย</option>
-                                                <option value="4">ติวสอบ</option>
-                                            </select>
-                                        </div>
-                                    </div>
-
-                                    <div className="form-group">
                                         <label className="col-md-4 control-label" for="email">Line ID</label>
                                         <div className="col-md-4">
-                                            <input id="email" name="email" type="text" placeholder="096 883-4441" className="form-control input-md" required=""/>
+                                            <input id="lineid" name="lineid" type="text" placeholder="@culh" className="form-control input-md" required=""/>
 
                                         </div>
                                     </div>
+
+                                    <div className="form-group">
+                                        <label className="col-md-4 control-label" for="email">สถานศึกษา</label>
+                                        <div className="col-md-4">
+                                            <input id="school" name="school" type="text" placeholder="096 883-4441" className="form-control input-md" required=""/>
+
+                                        </div>
+                                    </div>
+
+                                    <div className="form-group">
+                                        <label className="col-md-4 control-label" for="selectbasic">ระดับชั้น</label>
+                                        <div className="col-md-4">
+                                            <select id="selectbasic" name="selectbasic" className="form-control">
+                                                <option value="1">ประถม</option>
+                                                <option value="2">มัธยม</option>
+                                                <option value="3">มหาลัย</option>
+                                                <option value="4">ติวสอบ</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div className="form-group">
+                                        <label className="col-md-4 control-label" for="selectbasic">หลักสูตร</label>
+                                        <div className="col-md-4">
+                                            <div className="checkbox-inline ">
+                                                <label>
+                                                    <input type="checkbox" value=""/>หลักสูตรปกติ
+                                                    </label>
+                                            </div>
+                                            <div className="checkbox-inline ">
+                                                <label>
+                                                    <input type="checkbox" value=""/>หลักสูตร EP
+                                                    </label>
+                                            </div>
+                                            <div className="checkbox-inline ">
+                                                <label>
+                                                    <input type="checkbox" value=""/> หลักสูตร Inter
+                                                    </label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="form-group">
+                                        <label className="col-md-4 control-label" for="email">วิชาที่ต้องการเรียน</label>
+                                        <div className="col-md-4">
+                                            <input id="subject" name="subject" type="text" placeholder="เลข" className="form-control input-md" required=""/>
+                                        </div>
+                                    </div>
+
+                                    <div className="form-group">
+                                        <label className="col-md-4 control-label" for="email">วันเวลาที่ต้องการเรียน</label>
+                                        <div className="col-md-4">
+                                            <input id="subject" name="subject" type="text" placeholder="เลข" className="form-control input-md" required=""/>
+                                        </div>
+                                    </div>
+
+                                    <div className="form-group">
+                                        <label className="col-md-4 control-label" for="email">สถานที่เรียน</label>
+                                        <div className="col-md-4">
+                                             <textarea className ="form-control" rows="3" placeholder="What's up?" required></textarea>
+                                        </div>
+                                    </div>
+
+                                    <div className="form-group">
+                                        <label className="col-md-4 control-label" for="email">คุณสมบัติติวเตอร์</label>
+                                        <div className="col-md-4">
+                                             <textarea className ="form-control" rows="3" placeholder="What's up?" required></textarea>
+                                        </div>
+                                    </div>
+
+                                    <div className="form-group">
+                                        <label className="col-md-4 control-label" for="selectbasic">ผู้ติดต่อ</label>
+                                        <div className="col-md-4">
+                                            <div className="checkbox-inline ">
+                                                <label>
+                                                    <input type="checkbox" value=""/>นักเรียน
+                                                    </label>
+                                            </div>
+                                            <div className="checkbox-inline ">
+                                                <label>
+                                                    <input type="checkbox" value=""/>ผู้ปกครอง
+                                                    </label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="form-group">
+                                        <label className="col-md-4 control-label" for="selectbasic">ผู้ติดต่อ</label>
+                                        <div className="col-md-4">
+                                            <div className="checkbox-inline ">
+                                                <label>
+                                                    <input type="checkbox" value=""/>เพื่อน/บุคลลอื่น
+                                                    </label>
+                                            </div>
+                                            <div className="checkbox-inline ">
+                                                <label>
+                                                    <input type="checkbox" value=""/>เวบไซต์
+                                                    </label>
+                                            </div>
+                                            <div className="checkbox-inline ">
+                                                <label>
+                                                    <input type="checkbox" value=""/>Google
+                                                    </label>
+                                            </div>
+                                            <div className="checkbox-inline ">
+                                                <label>
+                                                    <input type="checkbox" value=""/>Facebook
+                                                    </label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
 
                                     <div className="form-group">
                                         <label className="col-md-4 control-label" for="singlebutton"></label>
