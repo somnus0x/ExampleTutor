@@ -19,3 +19,17 @@
 .qa h5{
     font-size: 20px;
 }
+.right-align{
+    float: right;
+    width: 25%;
+    height: 25%;
+}
+.paragraph{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.article-image {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

@@ -34,7 +34,7 @@ class Banner extends React.Component {
             	                <img src="src/client/app/assets/images/slide1.jpg" className="img-responsive" />
             	            </div>
             	            <div className="item">
-            	                <img src="src/client/app/assets/images/slide1.jpg" className="img-responsive" />
+            	                <img src="src/client/app/assets/images/slide2.jpg" className="img-responsive" />
             	            </div>
             	            <div className="item">
             	                <img src="src/client/app/assets/images/slide1.jpg" className="img-responsive"/>
