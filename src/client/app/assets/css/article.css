@@ -19,6 +19,10 @@
 .qa h5{
     font-size: 20px;
 }
+.citation{
+    font-size: 15px;
+    text-align: right;
+}
 .right-align{
     float: right;
     width: 25%;
@@ -28,8 +32,14 @@
     padding-top: 10px;
     padding-bottom: 10px;
 }
-
+.quote-padding{
+    padding-top: 10px;
+}
 .article-image {
     padding-top: 10px;
     padding-bottom: 10px;
+}
+.mobile-article-button-padding{
+    padding-top : 10px;
+    padding-bottom:  10px;
 }
