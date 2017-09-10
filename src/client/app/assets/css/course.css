@@ -17,6 +17,10 @@
 .qa h5{
     font-size: 20px;
 }
+.course-text-padding{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 div.table-title {
    display: block;
   margin: auto;

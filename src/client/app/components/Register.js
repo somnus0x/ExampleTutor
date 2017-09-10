@@ -17,7 +17,7 @@ class Register extends React.Component {
                     <div className='mobile-navbar-offset'></div>
                 </Mobile>
                 <Tablet>
-                    <div className='mobile-navbar-offset'></div>
+                    <div className='desktop-navbar-offset'></div>
                 </Tablet>
                 <Desktop>
                     <div className='register-wrapper'>
@@ -47,19 +47,19 @@ class Register extends React.Component {
                                     <div className="form-group">
                                         <label className="col-md-4 control-label" for="textinput">ชื่อ นามสกุล</label>
                                         <div className="col-md-2">
-                                            <input id="textinput" name="textinput" type="text" placeholder="ชื่อ" className="form-control input-md" required=""/>
+                                            <input id="textinput" name="textinput" type="text" className="form-control input-md" required=""/>
 
                                         </div>
                                         <div className="col-md-2">
-                                            <input id="textinput" name="textinput" type="text" placeholder="นามสกุล" className="form-control input-md" required=""/>
+                                            <input id="textinput" name="textinput" type="text"  className="form-control input-md" required=""/>
 
                                         </div>
                                     </div>
 
                                     <div className="form-group">
-                                        <label className="col-md-4 control-label" for="email">เบอร์ติดต่อ</label>
+                                        <label className="col-md-4 control-label" for="email">เบอร์ติดต่อ*</label>
                                         <div className="col-md-4">
-                                            <input id="email" name="email" type="text" placeholder="096 883-4441" className="form-control input-md" required=""/>
+                                            <input id="email" name="email" type="text"  className="form-control input-md" required=""/>
 
                                         </div>
                                     </div>
@@ -67,7 +67,7 @@ class Register extends React.Component {
                                     <div className="form-group">
                                         <label className="col-md-4 control-label" for="email">Line ID</label>
                                         <div className="col-md-4">
-                                            <input id="lineid" name="lineid" type="text" placeholder="@culh" className="form-control input-md" required=""/>
+                                            <input id="lineid" name="lineid" type="text"  className="form-control input-md" required=""/>
 
                                         </div>
                                     </div>
@@ -75,7 +75,7 @@ class Register extends React.Component {
                                     <div className="form-group">
                                         <label className="col-md-4 control-label" for="email">สถานศึกษา</label>
                                         <div className="col-md-4">
-                                            <input id="school" name="school" type="text" placeholder="096 883-4441" className="form-control input-md" required=""/>
+                                            <input id="school" name="school" type="text"  className="form-control input-md" required=""/>
 
                                         </div>
                                     </div>
@@ -115,28 +115,28 @@ class Register extends React.Component {
                                     <div className="form-group">
                                         <label className="col-md-4 control-label" for="email">วิชาที่ต้องการเรียน</label>
                                         <div className="col-md-4">
-                                            <input id="subject" name="subject" type="text" placeholder="เลข" className="form-control input-md" required=""/>
+                                            <input id="subject" name="subject" type="text"  className="form-control input-md" required=""/>
                                         </div>
                                     </div>
 
                                     <div className="form-group">
                                         <label className="col-md-4 control-label" for="email">วันเวลาที่ต้องการเรียน</label>
                                         <div className="col-md-4">
-                                            <input id="subject" name="subject" type="text" placeholder="" className="form-control input-md" required=""/>
+                                            <input id="subject" name="subject" type="text"  className="form-control input-md" required=""/>
                                         </div>
                                     </div>
 
                                     <div className="form-group">
-                                        <label className="col-md-4 control-label" for="email">สถานที่เรียน</label>
+                                        <label className="col-md-4 control-label" for="email">สถานที่เรียน กรุณาระบุให้ละเอียด*</label>
                                         <div className="col-md-4">
-                                             <textarea className ="form-control" rows="3" placeholder="" required></textarea>
+                                             <textarea className ="form-control" rows="3" required></textarea>
                                         </div>
                                     </div>
 
                                     <div className="form-group">
-                                        <label className="col-md-4 control-label" for="email">คุณสมบัติติวเตอร์</label>
+                                        <label className="col-md-4 control-label" for="email">คุณสมบัติติวเตอร เช่น เพศ อายุ มหาวิทยาลัย และบุคลิกภาพ</label>
                                         <div className="col-md-4">
-                                             <textarea className ="form-control" rows="3" placeholder="" required></textarea>
+                                             <textarea className ="form-control" rows="3" required></textarea>
                                         </div>
                                     </div>
 
@@ -224,19 +224,19 @@ class Register extends React.Component {
                                     <div className="form-group">
                                         <label className="col-md-4 control-label" for="textinput">ชื่อ นามสกุล</label>
                                         <div className="col-md-2">
-                                            <input id="textinput" name="textinput" type="text" placeholder="ชื่อ" className="form-control input-md" required=""/>
+                                            <input id="textinput" name="textinput" type="text"  className="form-control input-md" required=""/>
 
                                         </div>
                                         <div className="col-md-2">
-                                            <input id="textinput" name="textinput" type="text" placeholder="นามสกุล" className="form-control input-md" required=""/>
+                                            <input id="textinput" name="textinput" type="text"  className="form-control input-md" required=""/>
 
                                         </div>
                                     </div>
 
                                     <div className="form-group">
-                                        <label className="col-md-4 control-label" for="email">เบอร์ติดต่อ</label>
+                                        <label className="col-md-4 control-label" for="email">เบอร์ติดต่อ*</label>
                                         <div className="col-md-4">
-                                            <input id="email" name="email" type="text" placeholder="096 883-4441" className="form-control input-md" required=""/>
+                                            <input id="email" name="email" type="text" className="form-control input-md" required=""/>
 
                                         </div>
                                     </div>
@@ -244,7 +244,7 @@ class Register extends React.Component {
                                     <div className="form-group">
                                         <label className="col-md-4 control-label" for="email">Line ID</label>
                                         <div className="col-md-4">
-                                            <input id="lineid" name="lineid" type="text" placeholder="@culh" className="form-control input-md" required=""/>
+                                            <input id="lineid" name="lineid" type="text" className="form-control input-md" required=""/>
 
                                         </div>
                                     </div>
@@ -252,7 +252,7 @@ class Register extends React.Component {
                                     <div className="form-group">
                                         <label className="col-md-4 control-label" for="email">สถานศึกษา</label>
                                         <div className="col-md-4">
-                                            <input id="school" name="school" type="text" placeholder="096 883-4441" className="form-control input-md" required=""/>
+                                            <input id="school" name="school" type="text" className="form-control input-md" required=""/>
 
                                         </div>
                                     </div>
@@ -292,28 +292,28 @@ class Register extends React.Component {
                                     <div className="form-group">
                                         <label className="col-md-4 control-label" for="email">วิชาที่ต้องการเรียน</label>
                                         <div className="col-md-4">
-                                            <input id="subject" name="subject" type="text" placeholder="" className="form-control input-md" required=""/>
+                                            <input id="subject" name="subject" type="text"  className="form-control input-md" required=""/>
                                         </div>
                                     </div>
 
                                     <div className="form-group">
                                         <label className="col-md-4 control-label" for="email">วันเวลาที่ต้องการเรียน</label>
                                         <div className="col-md-4">
-                                            <input id="subject" name="subject" type="text" placeholder="" className="form-control input-md" required=""/>
+                                            <input id="subject" name="subject" type="text"  className="form-control input-md" required=""/>
                                         </div>
                                     </div>
 
                                     <div className="form-group">
-                                        <label className="col-md-4 control-label" for="email">สถานที่เรียน</label>
+                                        <label className="col-md-4 control-label" for="email">สถานที่เรียน กรุณาระบุให้ละเอียด*</label>
                                         <div className="col-md-4">
-                                             <textarea className ="form-control" rows="3" placeholder="" required></textarea>
+                                             <textarea className ="form-control" rows="3"  required></textarea>
                                         </div>
                                     </div>
 
                                     <div className="form-group">
-                                        <label className="col-md-4 control-label" for="email">คุณสมบัติติวเตอร์</label>
+                                        <label className="col-md-4 control-label" for="email">คุณสมบัติติวเตอร์ เช่น เพศ อายุ มหาวิทยาลัย และบุคลิกภาพ</label>
                                         <div className="col-md-4">
-                                             <textarea className ="form-control" rows="3" placeholder="" required></textarea>
+                                             <textarea className ="form-control" rows="3"  required></textarea>
                                         </div>
                                     </div>
 
@@ -401,19 +401,19 @@ class Register extends React.Component {
                                     <div className="form-group">
                                         <label className="col-md-4 control-label" for="textinput">ชื่อ นามสกุล</label>
                                         <div className="col-md-2">
-                                            <input id="textinput" name="textinput" type="text" placeholder="ชื่อ" className="form-control input-md" required=""/>
+                                            <input id="textinput" name="textinput" type="text"  className="form-control input-md" required=""/>
 
                                         </div>
                                         <div className="col-md-2">
-                                            <input id="textinput" name="textinput" type="text" placeholder="นามสกุล" className="form-control input-md" required=""/>
+                                            <input id="textinput" name="textinput" type="text"  className="form-control input-md" required=""/>
 
                                         </div>
                                     </div>
 
                                     <div className="form-group">
-                                        <label className="col-md-4 control-label" for="email">เบอร์ติดต่อ</label>
+                                        <label className="col-md-4 control-label" for="email">เบอร์ติดต่อ*</label>
                                         <div className="col-md-4">
-                                            <input id="email" name="email" type="text" placeholder="096 883-4441" className="form-control input-md" required=""/>
+                                            <input id="email" name="email" type="text"  className="form-control input-md" required=""/>
 
                                         </div>
                                     </div>
@@ -421,7 +421,7 @@ class Register extends React.Component {
                                     <div className="form-group">
                                         <label className="col-md-4 control-label" for="email">Line ID</label>
                                         <div className="col-md-4">
-                                            <input id="lineid" name="lineid" type="text" placeholder="@culh" className="form-control input-md" required=""/>
+                                            <input id="lineid" name="lineid" type="text"  className="form-control input-md" required=""/>
 
                                         </div>
                                     </div>
@@ -429,7 +429,7 @@ class Register extends React.Component {
                                     <div className="form-group">
                                         <label className="col-md-4 control-label" for="email">สถานศึกษา</label>
                                         <div className="col-md-4">
-                                            <input id="school" name="school" type="text" placeholder="096 883-4441" className="form-control input-md" required=""/>
+                                            <input id="school" name="school" type="text"  className="form-control input-md" required=""/>
 
                                         </div>
                                     </div>
@@ -469,28 +469,28 @@ class Register extends React.Component {
                                     <div className="form-group">
                                         <label className="col-md-4 control-label" for="email">วิชาที่ต้องการเรียน</label>
                                         <div className="col-md-4">
-                                            <input id="subject" name="subject" type="text" placeholder="เลข" className="form-control input-md" required=""/>
+                                            <input id="subject" name="subject" type="text"  className="form-control input-md" required=""/>
                                         </div>
                                     </div>
 
                                     <div className="form-group">
                                         <label className="col-md-4 control-label" for="email">วันเวลาที่ต้องการเรียน</label>
                                         <div className="col-md-4">
-                                            <input id="subject" name="subject" type="text" placeholder="เลข" className="form-control input-md" required=""/>
+                                            <input id="subject" name="subject" type="text"  className="form-control input-md" required=""/>
                                         </div>
                                     </div>
 
                                     <div className="form-group">
-                                        <label className="col-md-4 control-label" for="email">สถานที่เรียน</label>
+                                        <label className="col-md-4 control-label" for="email">สถานที่เรียน กรุณาระบุให้ละเอียด*</label>
                                         <div className="col-md-4">
-                                             <textarea className ="form-control" rows="3" placeholder="What's up?" required></textarea>
+                                             <textarea className ="form-control" rows="3"  required></textarea>
                                         </div>
                                     </div>
 
                                     <div className="form-group">
-                                        <label className="col-md-4 control-label" for="email">คุณสมบัติติวเตอร์</label>
+                                        <label className="col-md-4 control-label" for="email">คุณสมบัติติวเตอร์ เช่น เพศ อายุ มหาวิทยาลัย และบุคลิกภาพ</label>
                                         <div className="col-md-4">
-                                             <textarea className ="form-control" rows="3" placeholder="What's up?" required></textarea>
+                                             <textarea className ="form-control" rows="3"  required></textarea>
                                         </div>
                                     </div>
 

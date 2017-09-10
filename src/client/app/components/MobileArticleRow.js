@@ -22,7 +22,7 @@ class MobileArticleRow extends React.Component {
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita
                         <br/>
                         <Link to = '/kindergartenarticle' style={{ textDecoration: 'none' }}>
-                        <a className="btn btn-primary" href="#">View Project <span className="glyphicon glyphicon-chevron-right"></span></a>
+                        <a className="btn btn-primary mobile-article-button-padding" href="#">View Project <span className="glyphicon glyphicon-chevron-right "></span></a>
                     </Link>
                     </div>
                     <div className="col-md-4 ">
@@ -36,7 +36,7 @@ class MobileArticleRow extends React.Component {
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita
                         <br/>
                         <Link to = '/article' style={{ textDecoration: 'none' }}>
-                        <a className="btn btn-primary" href="#">View Project <span className="glyphicon glyphicon-chevron-right"></span></a>
+                        <a className="btn btn-primary mobile-article-button-padding" href="#">View Project <span className="glyphicon glyphicon-chevron-right"></span></a>
                     </Link>
                     </div>
                 </div>
@@ -52,7 +52,7 @@ class MobileArticleRow extends React.Component {
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita
                         <br/>
                         <Link to = '/collegearticle' style={{ textDecoration: 'none' }}>
-                        <a className="btn btn-primary" href="#">View Project <span className="glyphicon glyphicon-chevron-right"></span></a>
+                        <a className="btn btn-primary mobile-article-button-padding" href="#">View Project <span className="glyphicon glyphicon-chevron-right "></span></a>
                     </Link>
                     </div>
                     <div className="col-md-4 ">
@@ -66,7 +66,7 @@ class MobileArticleRow extends React.Component {
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita
                         <br/>
                         <Link to = '/accountingarticle' style={{ textDecoration: 'none' }}>
-                        <a className="btn btn-primary" href="#">View Project <span className="glyphicon glyphicon-chevron-right"></span></a>
+                        <a className="btn btn-primary mobile-article-button-padding" href="#">View Project <span className="glyphicon glyphicon-chevron-right "></span></a>
                     </Link>
                     </div>
                 </div>

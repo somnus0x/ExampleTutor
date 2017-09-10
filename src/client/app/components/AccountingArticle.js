@@ -16,13 +16,13 @@ class AccountingArticle extends React.Component {
                     <div className='mobile-navbar-offset'></div>
                 </Mobile>
                 <Tablet>
-                    <div className='mobile-navbar-offset'></div>
+                    <div className='desktop-navbar-offset'></div>
                 </Tablet>
                 <Desktop>
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
-                                <h2 className="text-center">สูตรลับเรียนเก่ง
+                                <h2 className="text-center">How to ติดชัว+เจาะลึกคณะบัญชีจุฬา
                                 </h2>
                                 <hr className = 'colored-line m-purple'/>
                             </div>
@@ -33,7 +33,7 @@ class AccountingArticle extends React.Component {
                             <div className="col-md-8 qa">
                                 <div className='row'>
                                     <div className='col-md-8 col-md-offset-2'>
-                                        <img src='src/client/app/assets/images/accountingCover.png' className='img-responsive article-image'/>
+                                        <img src={'src/client/app/assets/images/accountingCover.png'} className='img-responsive article-image'/>
                                     </div>
                                 </div>
                                 สวัสดีค่าน้อง ๆ พี่ๆ CU LEARNING HOME จะมาแนะนำเทคนิคการสอบเข้ามหาวิทยาลัยที่น้อง ๆใฝ่ฝันเอาไว้ โดยวันนี้ พี่พลอยขอนำเสนอ “How To ติดชัว+เจาะลึกคณะบัญชีจุฬา” ให้ฟังกันค่ะ โดยมีพี่ตังเม นิสิตสาวบัญชีจุฬา ผู้สอบติดตัวจริง มาให้คำแนะนำและเคล็ดลับดี ๆ ที่จะทำให้น้อง ๆ สอบติดบัญชีจุฬาผ่านฉลุย สามารถนำไปใช้ในการสอบเข้าคณะอื่นได้ด้วย อีกทั้งยังมาเล่าประสบการณ์จริงว่า
@@ -50,7 +50,7 @@ class AccountingArticle extends React.Component {
 
                                     </div>
                                     <div className = 'col-md-4'>
-                                        <img src='src/client/app/assets/images/accounting1.jpg' className='img-responsive'/>
+                                        <img src={'src/client/app/assets/images/accounting1.jpg'} className='img-responsive'/>
                                     </div>
                                 </div>
                                 <div className = 'row paragraph'>
@@ -58,7 +58,7 @@ class AccountingArticle extends React.Component {
                                 วันนี้ พี่ตังเมขอเปิดเผย <strong>“เคล็บลับในการเรียน”</strong> รวมทั้งเล่า <strong>“คณะบัญชีจุฬา”</strong> ให้น้อง ๆ ฟังกันค่ะ
                                 </div>
                                 <div className = 'row paragraph'>
-                                        <img src='src/client/app/assets/images/accounting2.jpg' className='img-responsive right-align'/>
+                                        <img src={'src/client/app/assets/images/accounting2.jpg'} className='img-responsive right-align'/>
                                         <strong className = 'blue'>รู้เขา รู้เรา - รบร้อยครั้งชนะร้อยครั้ง</strong><br></br>
                                         จากตอนประถม พี่มาจากโรงเรียนต่างจังหวัดเรียกว่า บ้านนอกเลยล่ะ  นี่พูดเลย วันๆไม่สนใจอะไร โดดยาง กลับบ้าน นอน  แต่ก็มีจุดเปลี่ยน
                                         คือครอบครัวของพี่อยากให้เข้ามาเรียนในกรุงเทพ เลยคิดในหัวว่า เออ ลองดูก็ได้วะ เด็กกรุงเทพมันจะเก่งขนาดไหน สรุป เก่งจริง ๆ
@@ -68,7 +68,7 @@ class AccountingArticle extends React.Component {
                                 </div>
 
                                 <div className = 'row paragraph'>
-                                        <img src='src/client/app/assets/images/accounting3.jpg' className='img-responsive right-align'/>
+                                        <img src={'src/client/app/assets/images/accounting3.jpg'} className='img-responsive right-align'/>
                                         <strong className = 'blue'>มุ่งชนเป้าหมาย</strong><br></br>
                                         พี่แนะนำ <strong>ให้เขียนเป้าหมายใส่กระดาษ</strong> และแปะบนกำแพง ในทุกที่ที่เราจะเห็น โยเฉพาะหน้าโต๊ะหนังสือ เมื่อเราเห็นมันทุกวัน
                                         เราก็จำซึมซับใส่สมอง หรือตอนท้อ ขี้เกียจ แค่เงยหน้าขึ้นมา จะเหมือนเตือนน้องกลายๆว่า <strong className = 'blue'>“เห้ยยย อนาคตเรานะ สู้ดิวะ”</strong> ขอกระซิบ
@@ -77,7 +77,7 @@ class AccountingArticle extends React.Component {
                                 </div>
 
                                 <div className = 'row'>
-                                        <img src='src/client/app/assets/images/accounting4.jpg' className='img-responsive right-align'/>
+                                        <img src={'src/client/app/assets/images/accounting4.jpg'} className='img-responsive right-align'/>
                                         <strong className = 'blue'>ตัดขาดจากโลกภายนอก</strong><br></br>
                                         ข้อนี้สำคัญนะคะ  พี่คิดว่า เวลาอ่านหนังสือ ไม่ควรมีอะไรมารบกวนจิตใจหรือหันเหความสนใจ ซึ่ง<br></br>
                                         <strong className = 'blue'>สิ่งที่ดึงดูดใจเรามากที่สุดคือ smartphone นั่นเอง</strong> ดังนั้นไม่ควรวางไว้ใกล้ๆตัวนะคะ  เพราะอาจจะเสียสมาธิได้ง่ายๆ แนะนำให้ ปิดมือถือ
@@ -104,7 +104,7 @@ class AccountingArticle extends React.Component {
                             </div>
                                 <div className='row'>
                                     <div className='col-md-8 col-md-offset-2 '>
-                                        <img src='src/client/app/assets/images/accounting5.jpg' className='img-responsive article-image'/>
+                                        <img src={'src/client/app/assets/images/accounting5.jpg'} className='img-responsive article-image'/>
                                     </div>
                                 </div>
                                 <strong>ชั้นปีที่ 1</strong> หรือที่เรียกว่า “เฟรชชี่” เป็นปีที่<strong>ทุกภาค</strong>จะเรียนวิชาพื้นฐานก่อน เช่น การบัญชีขั้นต้น(พี่ขอพูดเลยว่า วิชานี้ หนาววว...) , Calculus , สถิติ , ภาษาอังกฤษ เป็นต้น เพื่อปรับพื้นฐานของเด็ก ๆ และเตรียมตัวเลือกภาควิชาที่ชอบในตอนขึ้นปี 2 รวมทั้ง เน้นทำกิจกรรมรับน้อง <br></br>
@@ -144,7 +144,7 @@ class AccountingArticle extends React.Component {
                 <div className="container mobile-article-padding">
                     <div className="row">
                         <div className="col-lg-12">
-                            <h2 className="text-center">สูตรลับเรียนเก่ง
+                            <h2 className="text-center">How to ติดชัว+เจาะลึกคณะบัญชีจุฬา
                             </h2>
                             <hr className = 'colored-line m-purple'/>
                         </div>
@@ -274,7 +274,7 @@ class AccountingArticle extends React.Component {
                 <div className="container mobile-article-padding">
                     <div className="row">
                         <div className="col-lg-12">
-                            <h2 className="text-center">สูตรลับเรียนเก่ง
+                            <h2 className="text-center">How to ติดชัว+เจาะลึกคณะบัญชีจุฬา
                             </h2>
                             <hr className = 'colored-line m-purple'/>
                         </div>

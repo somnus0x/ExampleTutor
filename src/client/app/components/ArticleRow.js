@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import "../assets/css/articles.css";
+import "../assets/css/article.css";
 import MediaQuery from 'react-responsive'
 import {Link} from 'react-router-dom'
 const Desktop = ({children}) => <MediaQuery minWidth={1280} children={children}/>;
@@ -13,7 +14,7 @@ class ArticleRow extends React.Component {
                 <div className="row article-row">
                     <div className="col-md-4 ">
                         <a href="#">
-                            <img className="img-responsive" src="http://placehold.it/500x300" alt=""/>
+                            <img className="img-responsive" src="src/client/app/assets/images/kindergarten1.jpg" alt=""/>
                         </a>
                     </div>
                     <div className="col-md-2">
@@ -27,7 +28,7 @@ class ArticleRow extends React.Component {
                     </div>
                     <div className="col-md-4 ">
                         <a href="#">
-                            <img className="img-responsive" src="http://placehold.it/500x300" alt=""/>
+                            <img className="img-responsive" src='src/client/app/assets/images/primaryschoolarticle.jpg' alt=""/>
                         </a>
                     </div>
                     <div className="col-md-2">
@@ -43,7 +44,7 @@ class ArticleRow extends React.Component {
                 <div className="row article-row">
                     <div className="col-md-4 ">
                         <a href="#">
-                            <img className="img-responsive" src="http://placehold.it/500x300" alt=""/>
+                            <img className="img-responsive" src='src/client/app/assets/images/collegearticle.jpg' alt=""/>
                         </a>
                     </div>
                     <div className="col-md-2">
@@ -57,7 +58,7 @@ class ArticleRow extends React.Component {
                     </div>
                     <div className="col-md-4 ">
                         <a href="#">
-                            <img className="img-responsive" src="http://placehold.it/500x300" alt=""/>
+                            <img className="img-responsive" src="src/client/app/assets/images/accountingCover.png" alt=""/>
                         </a>
                     </div>
                     <div className="col-md-2">

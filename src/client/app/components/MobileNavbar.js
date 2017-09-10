@@ -31,48 +31,28 @@ class MobileNavbar extends React.Component
                                           หลักสูตร
                                         </a>
                                         <ul className="dropdown-menu mobile-multi-level" role="menu">
+                                            <li>
+                                                <Link to = '/courses' style={{ textDecoration: 'none' }}>
+                                                <div className = 'green'>หลักสูตร</div>
+                                                </Link>
+                                            </li>
                                           <li>
-                                              <Link to = '/course' style={{ textDecoration: 'none' }}>
+                                              <Link to = '/kindergarten' style={{ textDecoration: 'none' }}>
                                               <div className = 'green'>อนุบาล</div>
                                               </Link>
                                           </li>
                                           <li>
                                               <Link to = '/primaryschool' style={{ textDecoration: 'none' }}>
-                                              <div className = 'green'>ประถม</div>
+                                              <div className = 'green'>ประถมต้น</div>
                                               </Link>
                                           </li>
                                           <li>
                                               <Link to = '/course' style={{ textDecoration: 'none' }}>
-                                              <div className = 'green'>มัธยม</div>
+                                              <div className = 'green'>ประถมปลายและมัธยม</div>
                                               </Link>
                                           </li>
-                                          <li>
-                                              <Link to = '/course' style={{ textDecoration: 'none' }}>
-                                              <div className = 'green'>มหาลัย</div>
-                                              </Link>
-                                          </li>
-                                          <li className="divider"></li>
-                                          <li className="dropdown-submenu">
-                                            <a tabindex="-1" href="#">ติวสอบ</a>
-                                            <ul className="dropdown-menu">
-                                                <li>
-                                                    <Link to = '/course' style={{ textDecoration: 'none' }}>
-                                                    <div className = 'green'>กลางภาค/ปลายภาค</div>
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link to = '/course' style={{ textDecoration: 'none' }}>
-                                                    <div className = 'green'>GAT-PAT/7 วิชาสามัญ/O-NET</div>
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link to = '/course' style={{ textDecoration: 'none' }}>
-                                                    <div className = 'green'>TU-GET /CU-TEP/ IGCSE /SAT /CU –ATT/ CU-TEP</div>
-                                                    </Link>
-                                                </li>
+                                          
 
-                                            </ul>
-                                          </li>
                                         </ul>
                                     </li>
                                     <li>
@@ -85,7 +65,7 @@ class MobileNavbar extends React.Component
                                             <div className = 'red'>สมัครเรียน</div>
                                         </Link>
                                     </li>
-                                    <li >
+                                    <li>
                                         <Link to = '/articles' style={{ textDecoration: 'none' }}>
                                             <div className = 'purple'>สูตรลับเรียนเก่ง</div>
                                         </Link>

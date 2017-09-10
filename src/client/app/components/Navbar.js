@@ -21,11 +21,11 @@ class Navbar extends React.Component {
                             </div>
                             <div className = 'col-md-2 line'>
                                 <img src = {"src/client/app/assets/logo/line.png"}  />
-                                Line : <a className = 'line' href = 'http://line.me/ti/p/@mwp5636g'>CULearningHome</a>
+                                Line : <a className = 'line' href = 'http://line.me/ti/p/@CULH'>CULearningHome</a>
                             </div>
                             <div className = 'col-md-1  social-bar'>
-                                <img src = {"src/client/app/assets/logo/facebook.png"}  />
-                                <img src = {"src/client/app/assets/logo/instagram.png"}  />
+                                <a className = 'facebook' href = 'https://www.facebook.com/CULearningHome/'><img src = {"src/client/app/assets/logo/facebook.png"}  /></a>
+                                <a className = 'instagram-icon' href = 'https://www.instagram.com/cu_learning_home/'><img src = {"src/client/app/assets/logo/instagram.png"}  /></a>
                             </div>
 
 
@@ -45,19 +45,10 @@ class Navbar extends React.Component {
                                 <img src={"src/client/app/assets/logo/appbar.book.hardcover.open.writing.png"} />
                                 <span className ='navbar-item'>หลักสูตร</span>
                                 <ul className="dropdown-menu multi-level m-green" role="menu" aria-labelledby="dropdownMenu">
-                                  <li><Link to = '/course' style={{ textDecoration: 'none' }}>อนุบาล</Link></li>
-                                  <li><Link to = '/primaryschool' style={{ textDecoration: 'none' }}>ประถมต้นและปลาย</Link></li>
-                                  <li><a href="#">มัธยม</a></li>
-                                  <li><a href="#">มหาลัย</a></li>
-                                  <li className="divider"></li>
-                                  <li className="dropdown-submenu">
-                                    <a tabindex="-1" href="#">ติวสอบ</a>
-                                    <ul className="dropdown-menu m-green">
-                                      <li><a href="#">กลางภาค/ปลายภาค</a></li>
-                                      <li><a href="#">GAT-PAT/7 วิชาสามัญ/O-NET</a></li>
-                                      <li><a href="#">TU-GET /CU-TEP/ IGCSE /SAT /CU –ATT/ CU-TEP</a></li>
-                                    </ul>
-                                  </li>
+                                <li><Link to = '/course' style={{ textDecoration: 'none' }}><strong>อัตราค่าเรียน</strong></Link></li>
+                                  <li><Link to = '/kindergarten' style={{ textDecoration: 'none' }}>อนุบาล</Link></li>
+                                  <li><Link to = '/primaryschool' style={{ textDecoration: 'none' }}>ประถมต้น</Link></li>
+                                  <li><a href="#">ประถมปลายและมัธยม</a></li>
                                 </ul>
                         	</div>
                             <Link to = '/success' style={{ textDecoration: 'none' }} >
@@ -91,11 +82,11 @@ class Navbar extends React.Component {
                             </div>
                             <div className = 'col-sm-3 line'>
                                 <img src = {"src/client/app/assets/logo/line.png"}  />
-                                Line : <a className = 'line' href = 'http://line.me/ti/p/@mwp5636g'>CULearningHome</a>
+                                Line : <a className = 'line' href = 'http://line.me/ti/p/@CULH'>CULearningHome</a>
                             </div>
                             <div className = 'col-sm-2  social-bar'>
-                                <img src = {"src/client/app/assets/logo/facebook.png"}  />
-                                <img src = {"src/client/app/assets/logo/instagram.png"}  />
+                                <a className = 'facebook' href = 'https://www.facebook.com/CULearningHome/'><img src = {"src/client/app/assets/logo/facebook.png"}  /></a>
+                                <a className = 'instagram-icon' href = 'https://www.instagram.com/cu_learning_home/'><img src = {"src/client/app/assets/logo/instagram.png"}  /></a>
                             </div>
 
 
@@ -115,19 +106,10 @@ class Navbar extends React.Component {
                                 <img src={"src/client/app/assets/logo/appbar.book.hardcover.open.writing.png"} />
                                 <span className ='navbar-item'>หลักสูตร</span>
                                 <ul className="dropdown-menu multi-level m-green" role="menu" aria-labelledby="dropdownMenu">
-                                  <li><Link to = '/course' style={{ textDecoration: 'none' }}>อนุบาล</Link></li>
-                                  <li><Link to = '/primaryschool' style={{ textDecoration: 'none' }}>ประถมต้นและปลาย</Link></li>
-                                  <li><a href="#">มัธยม</a></li>
-                                  <li><a href="#">มหาลัย</a></li>
-                                  <li className="divider"></li>
-                                  <li className="dropdown-submenu">
-                                    <a tabindex="-1" href="#">ติวสอบ</a>
-                                    <ul className="dropdown-menu m-green">
-                                      <li><a href="#">กลางภาค/ปลายภาค</a></li>
-                                      <li><a href="#">GAT-PAT/7 วิชาสามัญ/O-NET</a></li>
-                                      <li><a href="#">TU-GET /CU-TEP/ IGCSE /SAT /CU –ATT/ CU-TEP</a></li>
-                                    </ul>
-                                  </li>
+                                <li><Link to = '/course' style={{ textDecoration: 'none' }}><strong>อัตราค่าเรียน</strong></Link></li>
+                                  <li><Link to = '/kindergarten' style={{ textDecoration: 'none' }}>อนุบาล</Link></li>
+                                  <li><Link to = '/primaryschool' style={{ textDecoration: 'none' }}>ประถมต้น</Link></li>
+                                  <li><a href="#">ประถมปลายและมัธยม</a></li>
                                 </ul>
                         	</div>
                             <Link to = '/success' style={{ textDecoration: 'none' }} >
