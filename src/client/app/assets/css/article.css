@@ -46,6 +46,24 @@
     padding-top: 10px;
     padding-bottom: 10px;
 }
+.accounting-header{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.header-image{
+    float: left;
+    margin-right: 20px;
+
+    width: 50%;
+    height: 50%;
+}
+.accounting-image{
+    float: right;
+    margin-left: 20px;
+
+    width: 30%;
+    height: 30%;
+}
 .article-image {
     padding-top: 10px;
     padding-bottom: 30px;
