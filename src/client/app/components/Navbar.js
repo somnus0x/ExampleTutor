@@ -48,7 +48,9 @@ class Navbar extends React.Component {
                                 <li><Link to = '/course' style={{ textDecoration: 'none' }}><strong>อัตราค่าเรียน</strong></Link></li>
                                   <li><Link to = '/kindergarten' style={{ textDecoration: 'none' }}>อนุบาล</Link></li>
                                   <li><Link to = '/primaryschool' style={{ textDecoration: 'none' }}>ประถมต้น</Link></li>
-                                  <li><a href="#">ประถมปลายและมัธยม</a></li>
+                                  <li><a href="#" style={{ textDecoration: 'none' }}>ประถมปลายและมัธยมต้น</a></li>
+                                  <li><a href="#" style={{ textDecoration: 'none' }}>มัธยมปลาย</a></li>
+                                  <li><a href="#" style={{ textDecoration: 'none' }}>บุคคลทั่วไป</a></li>
                                 </ul>
                         	</div>
                             <Link to = '/success' style={{ textDecoration: 'none' }} >

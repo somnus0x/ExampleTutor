@@ -5,3 +5,13 @@
 .register-wrapper{
     font-size: 17px;
 }
+.register-instruction{
+    width: 75%;
+    height: 75%;
+}
+.register-button{
+    text-align: center;
+}
+.register-header{
+    padding-bottom:50px;
+}
