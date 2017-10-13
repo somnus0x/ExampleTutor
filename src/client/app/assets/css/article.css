@@ -1,16 +1,13 @@
-.article-image{
-    display: block;
-    margin: 0 auto;
-}
+
 .article-text{
     padding-top: 20px;
 }
 .mobile-article-padding{
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 .qa {
-    font-size: 20px;
+    font-size: 24px;
 }
 .qa h4{
     font-size: 20px;
@@ -25,8 +22,21 @@
 }
 .right-align{
     float: right;
-    width: 25%;
-    height: 25%;
+    padding-top: 30px;
+    margin-left: 20px;
+    width: 35%;
+    height: 35%;
+}
+.left-align{
+    float: left;
+    padding-top: 10px;
+    margin-right: 20px;
+    width: 35%;
+    height: 35%;
+}
+.indent-paragraph{
+    margin-left: 50px;
+    margin-right: 50px;
 }
 .paragraph{
     padding-top: 10px;
@@ -34,12 +44,34 @@
 }
 .quote-padding{
     padding-top: 10px;
+    padding-bottom: 10px;
+}
+.accounting-header{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.header-image{
+    float: left;
+    margin-right: 20px;
+
+    width: 50%;
+    height: 50%;
+}
+.accounting-image{
+    float: right;
+    margin-left: 20px;
+
+    width: 30%;
+    height: 30%;
 }
 .article-image {
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
 }
 .mobile-article-button-padding{
     padding-top : 10px;
     padding-bottom:  10px;
+}
+.header{
+     text-decoration: underline;
 }

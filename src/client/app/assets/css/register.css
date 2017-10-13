@@ -3,5 +3,16 @@
     margin-right: 20px;
 }
 .register-wrapper{
-    font-size: 17px;
+    font-size: 20px;
+}
+.register-instruction{
+    width: 75%;
+    height: 75%;
+}
+.register-button{
+    text-align: center;
+    font-size: 20px;
+}
+.register-header{
+    padding-bottom:50px;
 }

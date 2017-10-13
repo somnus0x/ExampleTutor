@@ -12,3 +12,33 @@
     color: #ffffff;
     background-color: #363e49;
 }
+.contact-info{
+    font-size: 20px;
+}
+.footer-line{
+    width: 15%;
+    height:15%;
+}
+.footer-phone{
+    width: 15%;
+    height:15%;
+    margin-left: 70px;
+}
+.footer-margin
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.facebook-footer{
+    width : 10%;
+    height : 10%;
+}
+.instagram-icon-footer{
+    width : 10%;
+    height : 10%;
+    margin-left: 10px;
+}
+.social-row-padding{
+    padding-top:10px;
+    margin-right: 20px;
+}
