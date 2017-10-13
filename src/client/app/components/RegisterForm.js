@@ -133,7 +133,7 @@ class RegisterForm extends React.Component {
                     </div>
 
                     <div className="form-group">
-                        <label className="col-md-4 control-label" for="selectbasic">ผู้ติดต่อ</label>
+                        <label className="col-md-4 control-label" for="selectbasic">รับข่าวสารจาก</label>
                         <div className="col-md-4">
                             <div className="checkbox-inline ">
                                 <label>
@@ -163,7 +163,7 @@ class RegisterForm extends React.Component {
                     <div className="form-group">
                         <label className="col-md-4 control-label" for="singlebutton"></label>
                         <div className="col-md-4 register-button">
-                            <button id="singlebutton" name="singlebutton" className="btn btn-primary">Register</button>
+                            <button id="singlebutton" name="singlebutton" className="btn btn-primary register-button">Register</button>
                         </div>
                     </div>
 

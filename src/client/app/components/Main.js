@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import FrontPage from './FrontPage.js';
-import Page from './Page.js';
+import PageTemplate from './PageTemplate.js';
 import Courses from './Courses.js';
 import KindergartenCourse from './KindergartenCourse.js';
 import Register from './Register.js';
@@ -15,16 +15,16 @@ import AccountingArticle from './AccountingArticle.js';
 import "../assets/css/index.css";
 import { Router, Route ,Switch} from 'react-router'
 import { HashRouter,IndexRoute} from 'react-router-dom'
+import { configureAnchors } from 'react-scrollable-anchor'
 
 
 class Main extends React.Component {
-    componentDidMount(){
 
-    }
     render() {
+        configureAnchors({offset: -140, scrollDuration: 200})
         return (
             <div>
-                <Page>
+                <PageTemplate>
                     <Route exact path = '/' component = {FrontPage} />
                     <Route path = '/course' component = {Courses}/>
                     <Route path = '/kindergarten' component = {KindergartenCourse}/>
@@ -36,7 +36,7 @@ class Main extends React.Component {
                     <Route path = '/collegearticle' component = {CollegeArticle}/>
                     <Route path = '/kindergartenarticle' component = {KindergartenArticle}/>
                     <Route path = '/accountingarticle' component = {AccountingArticle}/>
-                </Page>
+                </PageTemplate>
             </div>
         );
   }

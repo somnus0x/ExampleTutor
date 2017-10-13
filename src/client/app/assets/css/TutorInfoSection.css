@@ -10,6 +10,10 @@
     margin-bottom: 20px;
     text-align: center;
 }
+.mobile-tutorinfo-wrapper{
+    margin-left: 50px;
+    margin-right: 50px;
+}
 .center-block{
     text-align:left;
     margin:auto;
@@ -32,7 +36,7 @@
     padding-top : 10px;
 }
 .tutor-content{
-    font-size: 20px;
+    font-size: 24px;
 }
 .tutor-subtext{
     font-size: 16px;

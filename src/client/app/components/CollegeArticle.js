@@ -46,7 +46,7 @@ class Content extends React.Component{
             <div>
                 <div className="row">
                     <div className="col-lg-12">
-                        <h2 className="text-center">มัธยมปลาย ตัดสินใจผิด ชีวิตเปลี่ยน 
+                        <h2 className="text-center">มัธยมปลาย ตัดสินใจผิด ชีวิตเปลี่ยน
                         </h2>
                         <hr className = 'colored-line m-purple'/>
                     </div>
@@ -183,6 +183,11 @@ class Content extends React.Component{
                                 ทั้งหมดนี้ก็เป็นเคล็ดลับดี ๆจากพี่ๆ CULH
                                 ที่ได้นำมามอบเป็นความรู้และกำลังใจในการเตรียมตัวสอบเข้ามหาวิทยาลัย
                                 ยิ่งถ้าได้ติวเตอร์ที่ดี ก็จะช่วยทำให้เราเข้าใจเนื้อหาและทบทวนได้ง่ายขึ้นนะคะ
+                            </div>
+                            <div className = 'row'>
+                                <div className = 'col-md-4 col-md-offset-4 m-yellow text-center whyus link-padding'>
+                                    <a href = '/#whyus'>ทำไมต้องเรา</a>
+                                </div>
                             </div>
                     </div>
                 </div>

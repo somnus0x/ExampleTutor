@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Page from './Page.js';
 import Banner from './Banner.js';
 import MottoParallax from './MottoParallax.js';
 import TutorInfoSection from './TutorInfoSection.js';

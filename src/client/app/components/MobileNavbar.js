@@ -65,9 +65,7 @@ class MobileNavbar extends React.Component
                                         </ul>
                                     </li>
                                     <li>
-                                        <Link to = '/success' style={{ textDecoration: 'none' }}>
                                         <div className = 'yellow'>ความสำเร็จของเรา</div>
-                                        </Link>
                                     </li>
                                     <li>
                                         <Link to = '/register' style={{ textDecoration: 'none' }}>

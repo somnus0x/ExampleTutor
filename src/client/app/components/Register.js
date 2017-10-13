@@ -27,7 +27,7 @@ class Register extends React.Component {
                         </div>
                         <div className="register-container">
                             <div className="row register-header">
-                                <div className = 'col-md-4 col-md-offset-4 m-red'>
+                                <div className = 'col-md-4 col-md-offset-4 m-yellow'>
                                     <h2 className='text-center'>สมัครเรียน</h2>
                                 </div>
                             </div>

@@ -21,115 +21,96 @@ class Courses extends React.Component {
                 </Tablet>
                 <Desktop>
                     <div className='course-wrapper'>
-                        <div className='container course-container'>
-
-                            <div className = 'row'>
-                                <div>
-                                    <h2 className='text-center'>อัตราค่าเรียนแบบเดี่ยว</h2>
-                                    <hr className="colored-line m-green"/>
-                                </div>
-                                <div className='col-md-8 col-md-offset-2'>
-                                    <img src='src/client/app/assets/images/Course1.jpg' className='img-responsive'/>
-                                </div>
-
-                            </div>
-                            <div className = 'row course-padding'>
-                                <div className ="well">
-                                  <strong>พิเศษ</strong> : สำหรับนักเรียนที่ชอบเรียนกับเพื่อนๆ ทางสถาบันมีการสอนแบบกลุ่มเล็ก
-                                  จำกัดจำนวนไม่เกิน 3 คน เพื่อประสิทธิภาพในการเรียนมากที่สุด
-                                  ประหยัดค่าเรียนมากกว่า 200 บาท*
-                                </div>
-                            </div>
-                            <div className = 'row course-padding'>
-                                <div>
-                                    <h2 className='text-center'>อัตราค่าเรียนแบบกลุ่ม</h2>
-                                    <hr className="colored-line m-yellow"/>
-                                </div>
-                                <div className='col-md-8 col-md-offset-2'>
-                                    <img src='src/client/app/assets/images/Course-2.jpg' className='img-responsive'/>
-                                </div>
-                            </div>
-                            <div className = 'row course-padding'>
-                                <div className ="well">
-                                  <strong>พิเศษสุด</strong> : สำหรับนักเรียนมัธยมปลายและบุคคลทั่วไป ทางสถาบันมีการเรียนแบบ
-                                  คอร์ส แบบเดี่ยวหรือกลุ่มเล็ก ประหยัดค่าเรียนสูงสุดถึง 2400 บาท
-                                </div>
-                            </div>
-                            <div className = 'row course-padding'>
-                                <div>
-                                    <h2 className='text-center'>อัตราค่าเรียนแบบคอร์ส</h2>
-                                    <hr className="colored-line m-blue"/>
-                                </div>
-                                <div className='col-md-8 col-md-offset-2'>
-                                    <img src='src/client/app/assets/images/Course-3.jpg' className='img-responsive'/>
-                                </div>
-                            </div>
-                            <div className = 'row course-padding'>
-                                <div className='col-md-8 col-md-offset-2'>
-                                    <img src='src/client/app/assets/images/Course-4.jpg' className='img-responsive'/>
-                                </div>
-                            </div>
-                            <div className = 'row course-padding'>
-                                <div className='col-md-8 col-md-offset-2'>
-                                    <img src='src/client/app/assets/images/Course-5.jpg' className='img-responsive'/>
-                                </div>
-                            </div>
-                            <div className = 'row course-padding'>
-                                <div className ="well">
-                                  <strong>หมายเหตุ</strong> : ราคาดังกล่าว รวมค่าเดินทาง เอกสารการสอน เรียบร้อยแล้ว
-                                  ทางสถาบัน รับประกันคุณภาพการสอน หากไม่พอใจ คืนค่าเรียนเต็มจำนวน และ เปลี่ยนติวเตอร์ให้ฟรี
-                                </div>
-                            </div>
-                        </div>
-
-
+                        <Content />
                     </div>
                 </Desktop>
                 <Tablet>
                     <div className='mobile-course-wrapper'>
-                        <div className='container course-container'>
-                            <div className='row'>
-                                <div className='col-md-4 col-md-offset-4'>
-                                    <img src='src/client/app/assets/images/kindergarten.JPG' className='img-responsive'/>
-                                </div>
-                            </div>
-                            <div>
-                                <h2 className='text-center'>อัตราค่าเรียน</h2>
-                                <hr className="colored-line m-green"/>
-                            </div>
-                            <div className='col-md-8 col-md-offset-2'>
-                                <img src='src/client/app/assets/images/Course1.jpg' className='img-responsive'/>
-                            </div>
-
-                        </div>
-
-
+                        <Content />
                     </div>
                 </Tablet>
                 <Mobile>
                     <div className='mobile-course-wrapper'>
-                        <div className='container course-container'>
-                            <div className='row'>
-                                <div className='col-md-4 col-md-offset-4'>
-                                    <img src='src/client/app/assets/images/kindergarten.JPG' className='img-responsive'/>
-                                </div>
-                            </div>
-                            <div>
-                                <h2 className='text-center'>อัตราค่าเรียน</h2>
-                                <hr className="colored-line m-green"/>
-                            </div>
-                            <div className='col-md-8 col-md-offset-2'>
-                                <img src='src/client/app/assets/images/Course1.jpg' className='img-responsive'/>
-                            </div>
-
-                        </div>
-
-
+                        <Content />
                     </div>
                 </Mobile>
 
             </div>
 
+        );
+    }
+}
+
+class Content extends React.Component {
+    render(){
+        return(
+            <div>
+                <div className='container course-container'>
+
+                    <div className = 'row'>
+                        <div>
+                            <h2 className='text-center'>อัตราค่าเรียนแบบเดี่ยว</h2>
+                            <hr className="colored-line m-green"/>
+                        </div>
+                        <div className='col-md-8 col-md-offset-2'>
+                            <img src='src/client/app/assets/images/Course1.jpg' className='img-responsive'/>
+                        </div>
+
+                    </div>
+                    <div className = 'row course-padding'>
+                        <div className ="well">
+                          <strong>พิเศษ</strong> : สำหรับนักเรียนที่ชอบเรียนกับเพื่อนๆ ทางสถาบันมีการสอนแบบกลุ่มเล็ก
+                          จำกัดจำนวนไม่เกิน 3 คน เพื่อประสิทธิภาพในการเรียนมากที่สุด
+                          ประหยัดค่าเรียนมากกว่า 200 บาท*
+                        </div>
+                    </div>
+                    <div className = 'row course-padding'>
+                        <div>
+                            <h2 className='text-center'>อัตราค่าเรียนแบบกลุ่ม</h2>
+                            <hr className="colored-line m-yellow"/>
+                        </div>
+                        <div className='col-md-8 col-md-offset-2'>
+                            <img src='src/client/app/assets/images/Course-2.jpg' className='img-responsive'/>
+                        </div>
+                    </div>
+                    <div className = 'row course-padding'>
+                        <div className ="well">
+                          <strong>พิเศษสุด</strong> : สำหรับนักเรียนมัธยมปลายและบุคคลทั่วไป ทางสถาบันมีการเรียนแบบ
+                          คอร์ส แบบเดี่ยวหรือกลุ่มเล็ก ประหยัดค่าเรียนสูงสุดถึง 2400 บาท
+                        </div>
+                    </div>
+                    <div className = 'row course-padding'>
+                        <div>
+                            <h2 className='text-center'>อัตราค่าเรียนแบบคอร์ส</h2>
+                            <hr className="colored-line m-blue"/>
+                        </div>
+                        <div className='col-md-8 col-md-offset-2'>
+                            <img src='src/client/app/assets/images/Course-3.jpg' className='img-responsive'/>
+                        </div>
+                    </div>
+                    <div className = 'row course-padding'>
+                        <div className='col-md-8 col-md-offset-2'>
+                            <img src='src/client/app/assets/images/Course-4.jpg' className='img-responsive'/>
+                        </div>
+                    </div>
+                    <div className = 'row course-padding'>
+                        <div className='col-md-8 col-md-offset-2'>
+                            <img src='src/client/app/assets/images/Course-5.jpg' className='img-responsive'/>
+                        </div>
+                    </div>
+                    <div className = 'row course-padding'>
+                        <div className ="well">
+                          <strong>หมายเหตุ</strong> : ราคาดังกล่าว รวมค่าเดินทาง เอกสารการสอน เรียบร้อยแล้ว
+                          ทางสถาบัน รับประกันคุณภาพการสอน หากไม่พอใจ คืนค่าเรียนเต็มจำนวน และ เปลี่ยนติวเตอร์ให้ฟรี
+                        </div>
+                    </div>
+                    <div className = 'row'>
+                        <div className = 'col-md-4 col-md-offset-4 m-yellow text-center whyus'>
+                            <a href = '/#whyus'>ทำไมต้องเรา</a>
+                        </div>
+                    </div>
+                </div>
+        </div>
         );
     }
 }

@@ -7,7 +7,7 @@
 
 
     render((
-      <HashRouter>
+      <BrowserRouter>
         <Route path = '/' component = {Main}/>
-    </HashRouter>
+    </BrowserRouter>
     ), document.getElementById('root'))

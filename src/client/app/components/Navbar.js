@@ -44,7 +44,7 @@ class Navbar extends React.Component {
                             <div className="col-md-2 m-green header-grid dropdown"  >
                                 <img src={"src/client/app/assets/logo/appbar.book.hardcover.open.writing.png"} />
                                 <span className ='navbar-item'>หลักสูตร</span>
-                                <ul className="dropdown-menu multi-level m-green" role="menu" aria-labelledby="dropdownMenu">
+                                <ul className="dropdown-menu multi-level m-green dropdown-font" role="menu" aria-labelledby="dropdownMenu">
                                 <li><Link to = '/course' style={{ textDecoration: 'none' }}><strong>อัตราค่าเรียน</strong></Link></li>
                                   <li><Link to = '/kindergarten' style={{ textDecoration: 'none' }}>อนุบาล</Link></li>
                                   <li><Link to = '/primaryschool' style={{ textDecoration: 'none' }}>ประถมต้น</Link></li>
@@ -53,12 +53,11 @@ class Navbar extends React.Component {
                                   <li><a href="#" style={{ textDecoration: 'none' }}>บุคคลทั่วไป</a></li>
                                 </ul>
                         	</div>
-                            <Link to = '/success' style={{ textDecoration: 'none' }} >
                             <div className=" col-md-2 m-yellow header-grid" >
                                 <img src={"src/client/app/assets/logo/appbar.leaderboard.png"} />
+
                             	<span className ='navbar-item'>ความสำเร็จของเรา</span>
                         	</div>
-                            </Link>
                             <Link to = '/register' style={{ textDecoration: 'none' }} >
                             <div className="col-md-2 m-red header-grid">
                                 <img src={"src/client/app/assets/logo/appbar.edit.png"} />
@@ -107,7 +106,7 @@ class Navbar extends React.Component {
                             <div className="col-sm-2 m-green header-grid dropdown"  >
                                 <img src={"src/client/app/assets/logo/appbar.book.hardcover.open.writing.png"} />
                                 <span className ='navbar-item'>หลักสูตร</span>
-                                <ul className="dropdown-menu multi-level m-green" role="menu" aria-labelledby="dropdownMenu">
+                                <ul className="dropdown-menu multi-level m-green dropdown-font" role="menu" aria-labelledby="dropdownMenu">
                                 <li><Link to = '/course' style={{ textDecoration: 'none' }}><strong>อัตราค่าเรียน</strong></Link></li>
                                   <li><Link to = '/kindergarten' style={{ textDecoration: 'none' }}>อนุบาล</Link></li>
                                   <li><Link to = '/primaryschool' style={{ textDecoration: 'none' }}>ประถมต้น</Link></li>
